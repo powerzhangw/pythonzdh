@@ -1,0 +1,15 @@
+from selenium import webdriver
+path= 'C:/Program Files (x86)/Google/Chrome/chromedriver.exe'
+driver = webdriver.Chrome(path)
+driver.get('https://passport.meituan.com/account/unitivelogin?')
+#driver.find_element_by_id('login-email').send_keys('test')
+#driver.find_element_by_name('email').send_keys('test')
+#driver.find_element_by_class_name('f-text').send_keys('tim')
+#driver.find_element_by_link_text('免费注册').click()
+#driver.find_element_by_partial_link_text('免费').click()
+#driver.find_element_by_css_selector('#login-email').send_keys('tim')
+#driver.find_element_by_css_selector('#J-normal-form > div:nth-child(3) > input').send_keys('tim')
+#driver.find_element_by_xpath('//*[@id="login-email"]').send_keys('tim')
+#driver.find_element_by_xpath('//input[@id="login-email"]').send_keys('tim')
+#print(driver.find_element_by_xpath('html/body').get_attribute('class'))
+print(driver.find_element_by_tag_name('body').get_attribute('class'))

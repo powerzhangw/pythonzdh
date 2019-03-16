@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user id ="1001">
+		<username>test1</username>
+                              <password>t123</password>
+	</user>
+              <user id="1002">
+		<username>test2</username>
+		<password>t234</password>
+              </user>
+</users>
