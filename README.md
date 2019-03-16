@@ -1,2 +1,2 @@
 # pythonzdh
-python自动化练习  test
+python自动化练习
