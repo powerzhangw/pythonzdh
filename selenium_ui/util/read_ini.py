@@ -1,9 +1,11 @@
-#coding=utf-8
+# 读取配置文件
+# r"D:\atest\pythonzdh\Imooc_selenium\config\LocalElement.ini"
+# coding utf-8
 import configparser
 class ReadIni(object):
     def __init__(self,file_name=None,node=None):
         if file_name == None:
-            file_name = "E:/Teacher/Imooc/SeleniumPython/config/LocalElement.ini"
+            file_name = r"D:\atest\pythonzdh\Imooc_selenium\config\LocalElement.ini"
         if node == None:
             self.node = "RegisterElement"
         else:
@@ -21,7 +23,7 @@ class ReadIni(object):
         return data
     
 
-#if __name__ == '__main__':
+# if __name__ == '__main__':
 #    read_init = ReadIni()
 #    print(read_init.get_value('user_name'))
 
