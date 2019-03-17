@@ -1,5 +1,5 @@
 from selenium import webdriver
-path= 'C:/Program Files (x86)/Google/Chrome/chromedriver.exe'
+path= r'D:\atest\pythonzdh\lib\chromedriver.exe'
 driver = webdriver.Chrome(path)
 driver.get('https://passport.meituan.com/account/unitivelogin?')
 #driver.find_element_by_id('login-email').send_keys('test')
