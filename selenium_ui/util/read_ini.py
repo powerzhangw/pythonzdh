@@ -5,7 +5,7 @@ import configparser
 class ReadIni(object):
     def __init__(self,file_name=None,node=None):
         if file_name == None:
-            file_name = r"D:\atest\pythonzdh\Imooc_selenium\config\LocalElement.ini"
+            file_name = r"D:\atest\pythonzdh\selenium_ui\config\LocalElement.ini"
         if node == None:
             self.node = "RegisterElement"
         else:
@@ -23,7 +23,7 @@ class ReadIni(object):
         return data
     
 
-# if __name__ == '__main__':
-#    read_init = ReadIni()
-#    print(read_init.get_value('user_name'))
+if __name__ == '__main__':
+   read_init = ReadIni()
+   print(read_init.get_value('user_name'))
 
