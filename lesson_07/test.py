@@ -6,7 +6,7 @@ from selenium import  webdriver
 class logingTest(unittest.TestCase):
     def setUp(self):
         print('tt')
-        path = 'C:/Program Files (x86)/Google/Chrome/chromedriver.exe'
+        path = r'D:\atest\pythonzdh\lib\chromedriver.exe'
         self.driver = webdriver.Chrome(path)
         self.driver.get('https://passport.ctrip.com/user/login?')
         self.driver.maximize_window()

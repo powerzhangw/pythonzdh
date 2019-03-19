@@ -13,7 +13,7 @@ class logingTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print('tt')
-        path = 'C:/Program Files (x86)/Google/Chrome/chromedriver.exe'
+        path = r'D:\atest\pythonzdh\lib\chromedriver.exe'
         cls.driver = webdriver.Chrome(path)
         cls.driver.get('https://passport.ctrip.com/user/login?')
         cls.driver.maximize_window()
