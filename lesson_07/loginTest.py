@@ -11,7 +11,7 @@ class logingTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print('tt')
-        path = 'C:/Program Files (x86)/Google/Chrome/chromedriver.exe'
+        path = r'D:\atest\pythonzdh\lib\chromedriver.exe'
         cls.driver = webdriver.Chrome(path)
         cls.driver.get('https://passport.ctrip.com/user/login?')
         cls.driver.maximize_window()
@@ -43,7 +43,7 @@ class logingTest(unittest.TestCase):
 if __name__ == '__main__':
     suiteTest = unittest.TestSuite()
     suiteTest.addTest(logingTest("test_01"))
-    filepath = "C:\\re.html"
+    filepath = r"D:\atest\pythonzdh\lib\re.html"
     fp = open(filepath, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='自动化测试报告', description="测试报告")
     runner.run(suiteTest)
