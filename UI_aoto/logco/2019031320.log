@@ -1,0 +1,1130 @@
+2019-03-13 20:43:03,858 - 贷后自动化测试 - INFO - 启动webdriver
+2019-03-13 20:43:11,309 - 贷后自动化测试 - INFO - 获取定位id:account
+2019-03-13 20:43:11,809 - 贷后自动化测试 - INFO - 正在查找元素id:account
+2019-03-13 20:43:11,877 - 贷后自动化测试 - INFO - 获取定位id:verification
+2019-03-13 20:43:12,377 - 贷后自动化测试 - INFO - 正在查找元素id:verification
+2019-03-13 20:43:12,424 - 贷后自动化测试 - INFO - 获取定位id:txtPhoneCertify
+2019-03-13 20:43:12,924 - 贷后自动化测试 - INFO - 正在查找元素id:txtPhoneCertify
+2019-03-13 20:43:12,973 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[text()="登录"]
+2019-03-13 20:43:12,973 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 20:43:12,984 - 贷后自动化测试 - INFO - 获取定位xpath://*[text()="登录"]
+2019-03-13 20:43:13,484 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 20:43:13,539 - 贷后自动化测试 - INFO - 验证新进订单，进单日期为当前日期，进行划扣操作；
+2019-03-13 20:43:13,539 - 贷后自动化测试 - INFO - 1、使用接口进单；
+2019-03-13 20:43:14,040 - 贷后自动化测试 - INFO - {"borrowerBaseInfos": [{"customerName": "\u7b06\u9eaf\u9a37", "customerNo": "510104199001010940", "customerPropertiy": "1", "telephone": "18693080140", "reason": "", "relation": "", "addressProvinceCode": 620000, "addressCityCode": 620100, "addressDetail": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "1", "addressAreaCode": 510104}, {"customerName": "\u9a6c\u5f3a", "customerNo": "510104198601013833", "customerPropertiy": "1", "telephone": "17621032210", "reason": "0002300003", "relation": "0001700002", "addressProvinceCode": 460000, "addressCityCode": 460200, "addressDetail": "\u5171\u501f\u4eba\u5e38\u9a7b\u5730\u5740208", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}, {"customerName": "\u738b\u82b3\u82b3", "customerNo": "620101199002287243", "customerPropertiy": "1", "telephone": "17621032208", "reason": "0002300001", "relation": "0001700005", "addressProvinceCode": 610000, "addressCityCode": 610100, "addressDetail": "\u914d\u5076\u7684\u5e38\u9a7b\u5730\u5740\u8be6\u7ec6", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}], "contract": [{"remark": "", "extra": {"overduePrice": "", "customerName": "\u7b06\u9eaf\u9a37", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "companyTelephone": "0011200003", "concessionCh": "\u8d30\u62fe\u8d30\u5143\u6574", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010102", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "33", "signDate": "2019-01-24", "proxyPriceCh": "\u8086\u62fe\u8086\u5143\u6574", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "proxyPrice": "44", "contractType": "123", "companyEmail": "0011700001", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "560", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "\u58f9\u62fe\u58f9\u5143\u6574", "documentNumber": "510104199001010940", "companyBankno": "0011600002", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "11", "agenPriceCh": "\u53c1\u62fe\u53c1\u5143\u6574", "companyAddress": "0011400001", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "22", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010102", "configContractId": "01c402a307c04987ae638a6a1198a2b7", "contractFileId": "038c7e806d2b4df78d877acec0cdae04", "contractName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx"}, {"remark": "", "extra": {"serviceAmountCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "month": "01", "companyTelephone": "0011200003", "concessionCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "advance_3_2": "3", "inputDept": "1571404b501940b385112b937ae8d988", "companyBankno": "0011600002", "proxyPrice": "", "contractType": "122", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "561", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_2": "1", "concession_1_1": "1", "advance_5_1": "5", "advance_5_2": "5", "concessions": "1-1|2-2|3-3|4-4|5-5|6", "concession_3_1": "3", "documentNumber": "510104199001010940", "advance_3_1": "3", "email": "power228@qq.com", "companyName": "0011100002", "serviceAmount": "55", "advance": "1-1|2-2|3-3|4-4|5-5|6", "agenPriceCh": "", "concession_3_2": "3", "s": "12|12|12|12|12|12", "concession_5_2": "5", "concession_5_1": "5", "signAddress": [110000, 110100, 110101], "concession_4_2": "4", "concession_4_1": "4", "customerName": "\u7b06\u9eaf\u9a37", "advance_1_1": "1", "advance_1_2": "1", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "concession_6_1": "6", "cp": "12|12|12|12|12|12", "beforetime": "04:04", "advance_6_1": "6", "city": "\u5e02\u8f96\u533a", "advance_4_2": "4", "area": "\u4e1c\u57ce\u533a", "advance_4_1": "4", "serviceNumber": "YJ2105129920190124000010103", "companyBank": "0011500001", "agenPrice": "", "signDate": "2019-01-24", "concession_2_1": "2", "concession_2_2": "2", "proxyPriceCh": "", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "advance_2_2": "2", "companyEmail": "0011700001", "advance_2_1": "2", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "telephone": "18693080140", "beforeDay": "", "s3": "12", "s2": "12", "s1": "12", "overduePrice": "12", "s6": "12", "s5": "12", "s4": "12", "cp1": "12", "cp2": "12", "cp3": "12", "cp4": "12", "cp5": "12", "cp6": "12", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "concession_1_ch": "", "bankno": "6214830283467990", "concession": "55", "contractName": "", "companyAddress": "0011400002", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c"}, "contractNumber": "YJ2105129920190124000010103", "configContractId": "3b29254360d14dac8b410668e48ae18e", "contractFileId": "1bad80ac76f34278a7fd718f31e99474", "contractName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx"}, {"remark": "", "extra": {"overduePrice": "", "customerName": "\u7b06\u9eaf\u9a37", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "\u67d2\u62fe\u67d2\u5143\u6574", "companyTelephone": "", "concessionCh": "", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010104", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "", "signDate": "2019-01-24", "proxyPriceCh": "", "loanFee": "77", "contractAmount": "", "concession_1": "", "proxyPrice": "", "contractType": "124", "companyEmail": "", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "562", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "", "documentNumber": "510104199001010940", "companyBankno": "0011600001", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "", "agenPriceCh": "", "companyAddress": "0011400002", "contractAmountCh": "", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010104", "configContractId": "ba2f537fc8f04e04bdee90f820be0ed8", "contractFileId": "85fc3d7d985e44df91114edc93c0b536", "contractName": "4\u670d\u52a1\u534f\u8bae.docx"}], "capitalInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "loanInfo": {"deptId": "33f1f497727b402c95607439f522ef68", "funderProductConfig": "1", "repayMethodText": "\u7b49\u989d\u672c\u606f", "rateText": 0.086, "customerName": "\u7b06\u9eaf\u9a37", "serviceLimit": 12, "compreRateText": 12.0, "loanLimit": 12, "contractNumber": "YJJR028201901240000101", "loanDate": 1552480993000, "platformNumber": "0009800021", "transferDate": "", "customerAll": "\u9a6c\u5f3a", "businessNumber": "ix59vskhnypbwcrw4py7sd06lomrn2fu", "salerId": "afa666767df24184982a2f84c4afde54", "isSpecial": "", "funder": "0009800003", "fileNumber": "2019031320430", "customerNo": "510104199001010940", "isCombo": 0, "productId": "0001000001"}, "borrowerLoanInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "jointerId": "013a2f5c1e1f4e0eaba38d0f7d0a9318", "attachInfo": [{"available": 1, "sort": 0, "attachType": "docx", "attachName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "123", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:07:28", "thumbUrl": "", "url": "038c7e806d2b4df78d877acec0cdae04", "classifyId": 123, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374330, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "122", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:09", "thumbUrl": "", "url": "1bad80ac76f34278a7fd718f31e99474", "classifyId": 122, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374331, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "4\u670d\u52a1\u534f\u8bae.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "124", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:28", "thumbUrl": "", "url": "85fc3d7d985e44df91114edc93c0b536", "classifyId": 124, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374332, "inputFlow": ""}], "bankcardInfos": [{"code": "308", "tel": "18693080140", "number": "6214830283467990", "master": "\u7b06\u9eaf\u9a37", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "1"}, {"code": "308", "tel": "17621032205", "number": "6214830283467990", "master": "\u7b06\u9eaf\u9a37", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "2"}], "guarantyInfos": [{"fastSellPrice": "", "mortgageStatus": 2, "primaryAssessFileId": "", "carMileage": 0.0, "residentDetail": "\u5c45\u4f4f\u4eba\u5458---------------\u521d\u8bc4\u5f55\u5165", "carNumber": "", "source": "0006900001", "isPeripheralBusiness": "", "decorateStatus": "0007200001", "useage": "0006800001", "certificateNumber": "chanquan001", "agencyTele": "", "fastSellTime": "", "brand": "", "SaddressDetail": "\u5927\u4e1a\u8def205\u53f7", "landLife": "0007000003", "maintainStatus": "0007800001", "faceStreet": "0008000001", "propertyType": "", "addressProvinceCode": 510000, "landCertificateNumber": "", "certificateName": "", "latestAssessment": "", "addressCityCode": 510100, "sharePercent": [{"name": "\u8c03\u8bd5\u4e00"}, {"name": "\u738b\u82b3\u82b3"}], "buyDate": "2008-08-08 00:00:00", "leftUseTime": "", "hasGarden": "", "assessmentReportId": "", "house": "\u697c\u76d8\u540d\u79f0", "assessPrice": "", "displacement": "", "accessTotle": 200.0, "totleFloor": "", "shareStatus": "0007500002", "trafficConvenience": "0014100001", "floor": 33, "repeatAssessFileId": "", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "hasBalcony": "", "classify": "0006100001", "notarizationFileId": "", "degree": "0007900001", "nature": "0007600001", "foundYears": "2008", "realEstateCertificateNumber": "", "currentUsage": "0014000001", "acreage": 100.0, "mortgageFileId": "", "assessDate": "", "carType": "", "carColor": "", "buildingStructure": "0014300001", "ventilationStatus": "0007700001", "addressAreaCode": 510104}]}
+2019-03-13 20:43:14,043 - 贷后自动化测试 - INFO - 进件请求结果:成功
+2019-03-13 20:43:14,043 - 贷后自动化测试 - INFO - 获取笆麯騷的订单ID
+2019-03-13 20:43:16,460 - 贷后自动化测试 - INFO - 进入订单详情页
+2019-03-13 20:43:18,234 - 贷后自动化测试 - INFO - 2、获取订单相关信息，验证金额、客户名、当前贷款期限、当前还款信息等是否正确；
+2019-03-13 20:43:18,234 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 20:43:18,690 - 贷后自动化测试 - INFO - 获取定位xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 20:43:19,190 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 20:43:19,219 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]的文本为笆麯騷
+2019-03-13 20:43:19,224 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]
+2019-03-13 20:43:19,236 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]
+2019-03-13 20:43:19,736 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]
+2019-03-13 20:43:19,767 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]的文本为300,000.00
+2019-03-13 20:43:19,775 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]
+2019-03-13 20:43:19,786 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]
+2019-03-13 20:43:20,286 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]
+2019-03-13 20:43:20,312 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]的文本为1
+2019-03-13 20:43:20,319 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:43:20,319 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:43:20,331 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:43:20,831 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:43:20,905 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 20:43:20,937 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 20:43:21,437 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 20:43:21,464 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span的文本为共 0 条
+2019-03-13 20:43:21,470 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:21,470 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:21,486 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:21,986 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:22,068 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 20:43:22,164 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 20:43:22,664 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 20:43:22,690 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span的文本为0
+2019-03-13 20:43:22,697 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 20:43:22,709 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 20:43:23,209 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 20:43:23,240 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span的文本为0
+2019-03-13 20:43:23,246 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 20:43:23,257 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 20:43:23,757 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 20:43:23,785 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span的文本为0
+2019-03-13 20:43:23,792 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 20:43:23,803 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 20:43:24,305 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 20:43:24,332 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span的文本为0
+2019-03-13 20:43:24,338 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 20:43:24,352 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 20:43:24,852 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 20:43:24,881 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span的文本为0
+2019-03-13 20:43:24,888 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:24,888 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:24,894 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:25,394 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:43:25,426 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span
+2019-03-13 20:43:25,437 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span
+2019-03-13 20:43:25,937 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span
+2019-03-13 20:43:25,966 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span的文本为77
+2019-03-13 20:43:25,973 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span
+2019-03-13 20:43:25,984 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span
+2019-03-13 20:43:26,484 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span
+2019-03-13 20:43:26,512 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span的文本为44
+2019-03-13 20:43:26,517 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span
+2019-03-13 20:43:26,529 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span
+2019-03-13 20:43:27,029 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span
+2019-03-13 20:43:27,055 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span的文本为33
+2019-03-13 20:43:27,063 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span
+2019-03-13 20:43:27,096 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span
+2019-03-13 20:43:27,596 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span
+2019-03-13 20:43:27,625 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span的文本为11
+2019-03-13 20:43:27,631 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span
+2019-03-13 20:43:27,642 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span
+2019-03-13 20:43:28,142 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span
+2019-03-13 20:43:28,170 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span的文本为55
+2019-03-13 20:43:28,177 - 贷后自动化测试 - INFO - 进入页面-客户卡管理
+2019-03-13 20:43:29,302 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:43:29,802 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:43:29,888 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:43:30,388 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:43:30,447 - 贷后自动化测试 - INFO - 获取下拉框定位元素银行卡主要用途还款
+2019-03-13 20:43:31,612 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:43:31,612 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:43:31,630 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:43:32,130 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:43:32,180 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 20:43:32,180 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 20:43:32,201 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 20:43:32,701 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 20:43:32,746 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[2]/ul/li[1]
+2019-03-13 20:43:32,746 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[2]/ul/li[1]
+2019-03-13 20:43:32,757 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[2]/ul/li[1]
+2019-03-13 20:43:33,259 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[2]/ul/li[1]
+2019-03-13 20:43:33,878 - 贷后自动化测试 - INFO - 获取下拉框定位元素银行卡账户类型个人账户
+2019-03-13 20:43:35,496 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tInputmaster"]/div/div[1]/input
+2019-03-13 20:43:35,997 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tInputmaster"]/div/div[1]/input
+2019-03-13 20:43:36,036 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tInputmaster"]/div/div[1]/input
+2019-03-13 20:43:36,536 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tInputmaster"]/div/div[1]/input
+2019-03-13 20:43:36,611 - 贷后自动化测试 - INFO - 获取下拉框定位元素银行卡证件类型身份证
+2019-03-13 20:43:37,746 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tInputidentNo"]/div/div[1]/input
+2019-03-13 20:43:38,246 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tInputidentNo"]/div/div[1]/input
+2019-03-13 20:43:38,280 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tInputidentNo"]/div/div[1]/input
+2019-03-13 20:43:38,782 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tInputidentNo"]/div/div[1]/input
+2019-03-13 20:43:39,042 - 贷后自动化测试 - INFO - 获取下拉框定位元素银行卡分支行默认
+2019-03-13 20:43:41,451 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnConfirmEditBank
+2019-03-13 20:43:41,451 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnConfirmEditBank
+2019-03-13 20:43:41,466 - 贷后自动化测试 - INFO - 获取定位name:tBtnConfirmEditBank
+2019-03-13 20:43:41,966 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnConfirmEditBank
+2019-03-13 20:43:42,069 - 贷后自动化测试 - INFO - 正在查找元素xpath:/html/body/div[9]/div/div[1]/div/div[2]
+2019-03-13 20:43:42,388 - 贷后自动化测试 - INFO - 获取定位xpath:/html/body/div[9]/div/div[1]/div/div[2]
+2019-03-13 20:43:42,888 - 贷后自动化测试 - INFO - 正在查找元素xpath:/html/body/div[9]/div/div[1]/div/div[2]
+2019-03-13 20:43:42,914 - 贷后自动化测试 - INFO - 获取到定位元素xpath:/html/body/div[9]/div/div[1]/div/div[2]的文本为更新客户银行卡成功
+2019-03-13 20:43:42,920 - 贷后自动化测试 - INFO - 3、还款管理页面，进入划扣页面，进行划扣操作；
+2019-03-13 20:43:42,920 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:43:52,023 - 贷后自动化测试 - INFO - 进入页面-待还列表
+2019-03-13 20:43:53,161 - 贷后自动化测试 - ERROR - Message: element not visible
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-03-13 20:43:53,161 - 贷后自动化测试 - INFO - 点击定位元素id:tSideMenudeductdeduct-index
+2019-03-13 20:43:53,161 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:43:53,167 - 贷后自动化测试 - INFO - 获取定位id:tSideMenudeductdeduct-index
+2019-03-13 20:43:53,667 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:43:53,709 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:53,709 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:53,947 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:54,447 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:54,540 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:54,540 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:54,561 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:55,061 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:43:55,108 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:43:55,608 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:43:55,726 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:43:55,726 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:43:55,737 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:43:56,237 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:43:56,288 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:43:56,305 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:43:56,805 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:43:56,839 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为220.00
+2019-03-13 20:43:56,846 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:43:56,858 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:43:57,358 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:43:57,387 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:43:57,394 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:43:57,405 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:43:57,905 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:43:57,934 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span的文本为0.00
+2019-03-13 20:43:57,940 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:43:57,941 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:43:57,954 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:43:58,454 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:43:58,510 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:43:59,010 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:43:59,045 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:43:59,545 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:43:59,599 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:43:59,601 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:43:59,611 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:44:00,112 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:44:00,173 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:44:00,673 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:44:00,716 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:44:00,716 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:44:00,727 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:44:01,229 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:44:01,302 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:44:01,302 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:44:01,315 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:44:01,815 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:44:01,869 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:44:01,869 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:44:01,885 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:44:02,385 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:44:02,437 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:44:02,437 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:44:02,453 - 贷后自动化测试 - INFO - 获取定位name:tBtnClaimManageClaimConfirm
+2019-03-13 20:44:02,953 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:44:03,012 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:44:03,147 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:44:03,648 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:44:03,683 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]的文本为提交服务方划扣任务成功
+2019-03-13 20:44:10,690 - 贷后自动化测试 - INFO - 3.1、还款管理页面，应还金额等于贷前费用总额；
+2019-03-13 20:44:10,690 - 贷后自动化测试 - INFO - 3.2、还款管理页面，预还款金额等于0；
+2019-03-13 20:44:10,690 - 贷后自动化测试 - INFO - 3.3、还款管理页面，提交划扣任务成功；
+2019-03-13 20:44:10,690 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:44:19,806 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:44:21,148 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:44:21,650 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:44:21,848 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:44:21,848 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:44:21,861 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:44:22,361 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:44:22,411 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:44:22,433 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:44:22,933 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:44:22,960 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:44:22,966 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:44:22,977 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:44:23,477 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:44:23,506 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:44:23,513 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:44:23,525 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:44:24,025 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:44:24,061 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:44:34,068 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:44:43,137 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:44:44,634 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:44:45,134 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:44:45,259 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:44:45,259 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:44:45,266 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:44:45,767 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:44:45,821 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:44:45,834 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:44:46,334 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:44:46,361 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 0 条
+2019-03-13 20:44:46,368 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:44:55,440 - 贷后自动化测试 - INFO - 进入页面-历史划扣
+2019-03-13 20:44:56,938 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:44:57,438 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:44:57,476 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:44:57,976 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:44:58,243 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:44:58,243 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:44:58,256 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:44:58,756 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:44:58,864 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:44:58,884 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:44:59,384 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:44:59,420 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span的文本为共 1 条
+2019-03-13 20:44:59,426 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:44:59,437 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:44:59,937 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:44:59,967 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为100.00
+2019-03-13 20:44:59,973 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:44:59,984 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:45:00,484 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:45:00,513 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:45:00,519 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:45:00,532 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:45:01,032 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:45:01,059 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span的文本为扣款失败
+2019-03-13 20:45:01,065 - 贷后自动化测试 - INFO - {u'\u9884\u5212\u6263\u72b6\u6001': u'\u6263\u6b3e\u5931\u8d25', u'\u5b9e\u9645\u6263\u6b3e\u989d': u'0.00', u'\u9884\u5212\u6263\u91d1\u989d': u'100.00'}
+2019-03-13 20:45:01,065 - 贷后自动化测试 - INFO - 划扣历史页面，划扣失败，重新进行划扣操作
+2019-03-13 20:45:01,065 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:45:10,183 - 贷后自动化测试 - INFO - 进入页面-待还列表
+2019-03-13 20:45:11,479 - 贷后自动化测试 - INFO - 点击定位元素id:tSideMenudeductdeduct-index
+2019-03-13 20:45:11,479 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:45:11,510 - 贷后自动化测试 - INFO - 获取定位id:tSideMenudeductdeduct-index
+2019-03-13 20:45:12,010 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:45:12,085 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:12,086 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:12,099 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:12,599 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:12,664 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:12,665 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:12,677 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:13,177 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:45:13,224 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:45:13,724 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:45:13,845 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:45:13,845 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:45:13,855 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:45:14,357 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:45:14,404 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:45:14,421 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:45:14,921 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:45:14,948 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为220.00
+2019-03-13 20:45:14,956 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:45:14,967 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:45:15,467 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:45:15,494 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:45:15,500 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:45:15,516 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:45:16,016 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:45:16,055 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span的文本为0.00
+2019-03-13 20:45:16,062 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:45:16,062 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:45:16,073 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:45:16,573 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:45:16,631 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:45:17,131 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:45:17,165 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:45:17,665 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:45:17,720 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:45:17,720 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:45:17,733 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:45:18,233 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:45:18,286 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:45:18,786 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:45:18,845 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:45:18,845 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:45:18,858 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:45:19,358 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:45:19,405 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:45:19,407 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:45:19,418 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:45:19,918 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:45:19,971 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:45:19,971 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:45:19,986 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:45:20,487 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:45:20,551 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:45:20,552 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:45:20,565 - 贷后自动化测试 - INFO - 获取定位name:tBtnClaimManageClaimConfirm
+2019-03-13 20:45:21,065 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:45:21,121 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:45:21,253 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:45:21,753 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:45:21,780 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]的文本为提交服务方划扣任务成功
+2019-03-13 20:45:28,788 - 贷后自动化测试 - INFO - 第0次划扣，还款管理页面，提交划扣任务成功
+2019-03-13 20:45:28,788 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:45:37,903 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:45:39,421 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:45:39,921 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:45:40,062 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:45:40,062 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:45:40,073 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:45:40,573 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:45:40,622 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:45:40,641 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:45:41,141 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:45:41,168 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:45:41,174 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:45:41,187 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:45:41,687 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:45:41,714 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:45:41,720 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:45:41,733 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:45:42,233 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:45:42,259 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:45:52,266 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:46:01,381 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:46:02,907 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:46:03,407 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:46:03,549 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:46:03,549 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:46:03,562 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:46:04,062 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:46:04,115 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:04,134 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:04,634 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:04,661 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:46:04,667 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:46:04,678 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:46:05,178 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:46:05,206 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:46:05,213 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:46:05,224 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:46:05,724 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:46:05,752 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:46:15,759 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:46:24,869 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:46:26,453 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:46:26,953 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:46:27,091 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:46:27,091 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:46:27,101 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:46:27,601 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:46:27,651 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:27,670 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:28,170 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:28,197 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:46:28,203 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:46:28,214 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:46:28,714 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:46:28,742 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:46:28,747 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:46:28,759 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:46:29,259 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:46:29,288 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:46:39,295 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:46:48,407 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:46:50,009 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:46:50,509 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:46:50,645 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:46:50,647 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:46:50,660 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:46:51,160 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:46:51,213 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:51,230 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:51,730 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:46:51,757 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 0 条
+2019-03-13 20:46:51,765 - 贷后自动化测试 - INFO - 订单划扣结果成功；
+2019-03-13 20:46:51,765 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:47:00,832 - 贷后自动化测试 - INFO - 进入页面-历史划扣
+2019-03-13 20:47:02,509 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:47:03,009 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:47:03,048 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:47:03,548 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:47:03,671 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:47:03,673 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:47:03,684 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:47:04,184 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:47:04,299 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:47:04,329 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:47:04,829 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:47:04,868 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span的文本为共 2 条
+2019-03-13 20:47:04,880 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:47:04,891 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:47:05,392 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:47:05,421 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为100.00
+2019-03-13 20:47:05,427 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:47:05,440 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:47:05,940 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:47:05,967 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:47:05,974 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:47:05,986 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:47:06,486 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:47:06,513 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span的文本为扣款失败
+2019-03-13 20:47:06,520 - 贷后自动化测试 - INFO - {u'\u9884\u5212\u6263\u72b6\u6001': u'\u6263\u6b3e\u5931\u8d25', u'\u5b9e\u9645\u6263\u6b3e\u989d': u'0.00', u'\u9884\u5212\u6263\u91d1\u989d': u'100.00'}
+2019-03-13 20:47:06,520 - 贷后自动化测试 - INFO - 划扣历史页面，划扣失败，重新进行划扣操作
+2019-03-13 20:47:06,520 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:47:15,632 - 贷后自动化测试 - INFO - 进入页面-待还列表
+2019-03-13 20:47:16,924 - 贷后自动化测试 - INFO - 点击定位元素id:tSideMenudeductdeduct-index
+2019-03-13 20:47:16,924 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:47:16,963 - 贷后自动化测试 - INFO - 获取定位id:tSideMenudeductdeduct-index
+2019-03-13 20:47:17,463 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:47:17,543 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:17,543 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:17,562 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:18,063 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:18,128 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:18,128 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:18,140 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:18,640 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:47:18,687 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:47:19,187 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:47:19,302 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:47:19,302 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:47:19,312 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:47:19,813 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:47:19,864 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:47:19,881 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:47:20,381 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:47:20,410 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为220.00
+2019-03-13 20:47:20,417 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:47:20,427 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:47:20,927 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:47:20,956 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:47:20,961 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:47:20,973 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:47:21,473 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:47:21,502 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span的文本为0.00
+2019-03-13 20:47:21,509 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:47:21,509 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:47:21,520 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:47:22,020 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:47:22,079 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:47:22,579 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:47:22,614 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:47:23,115 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:47:23,171 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:47:23,171 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:47:23,186 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:47:23,686 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:47:23,766 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:47:24,266 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:47:24,305 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:47:24,305 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:47:24,319 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:47:24,819 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:47:24,878 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:47:24,878 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:47:24,891 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:47:25,391 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:47:25,446 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:47:25,447 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:47:25,461 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:47:25,961 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:47:26,016 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:47:26,016 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:47:26,030 - 贷后自动化测试 - INFO - 获取定位name:tBtnClaimManageClaimConfirm
+2019-03-13 20:47:26,530 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:47:26,586 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:47:26,661 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:47:27,161 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:47:27,191 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]的文本为提交服务方划扣任务成功
+2019-03-13 20:47:34,197 - 贷后自动化测试 - INFO - 第1次划扣，还款管理页面，提交划扣任务成功
+2019-03-13 20:47:34,197 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:47:43,312 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:47:44,908 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:47:45,408 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:47:45,553 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:47:45,555 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:47:45,565 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:47:46,065 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:47:46,115 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:47:46,132 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:47:46,632 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:47:46,658 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:47:46,665 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:47:46,677 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:47:47,177 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:47:47,204 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:47:47,211 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:47:47,223 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:47:47,723 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:47:47,752 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:47:57,757 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:48:06,869 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:48:08,474 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:48:08,974 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:48:09,117 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:48:09,117 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:48:09,130 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:48:09,630 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:48:09,680 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:09,697 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:10,197 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:10,224 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:48:10,232 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:48:10,243 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:48:10,743 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:48:10,769 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:48:10,776 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:48:10,789 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:48:11,289 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:48:11,316 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:48:21,325 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:48:30,436 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:48:32,108 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:48:32,608 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:48:32,730 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:48:32,730 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:48:32,743 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:48:33,244 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:48:33,296 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:33,312 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:33,813 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:33,841 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:48:33,848 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:48:33,858 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:48:34,358 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:48:34,387 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:48:34,392 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:48:34,404 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:48:34,904 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:48:34,933 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:48:44,940 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:48:51,010 - 贷后自动化测试 - ERROR - Message: element not visible
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-03-13 20:48:51,010 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:48:52,157 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:48:52,657 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:48:52,769 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:48:52,769 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:48:52,778 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:48:53,278 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:48:53,328 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:53,335 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:53,835 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:48:53,855 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 0 条
+2019-03-13 20:48:53,862 - 贷后自动化测试 - INFO - 订单划扣结果成功；
+2019-03-13 20:48:53,862 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:49:02,946 - 贷后自动化测试 - INFO - 进入页面-历史划扣
+2019-03-13 20:49:04,673 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:49:05,174 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:49:05,207 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:49:05,707 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:49:05,842 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:49:05,842 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:49:05,855 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:49:06,355 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:49:06,451 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:49:06,519 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:49:07,019 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:49:07,046 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span的文本为共 3 条
+2019-03-13 20:49:07,053 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:49:07,065 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:49:07,565 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:49:07,595 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为100.00
+2019-03-13 20:49:07,601 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:49:07,614 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:49:08,115 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:49:08,142 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:49:08,150 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:49:08,161 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:49:08,661 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:49:08,690 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span的文本为扣款失败
+2019-03-13 20:49:08,697 - 贷后自动化测试 - INFO - {u'\u9884\u5212\u6263\u72b6\u6001': u'\u6263\u6b3e\u5931\u8d25', u'\u5b9e\u9645\u6263\u6b3e\u989d': u'0.00', u'\u9884\u5212\u6263\u91d1\u989d': u'100.00'}
+2019-03-13 20:49:08,697 - 贷后自动化测试 - INFO - 划扣历史页面，划扣失败，重新进行划扣操作
+2019-03-13 20:49:08,697 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:49:17,767 - 贷后自动化测试 - INFO - 进入页面-待还列表
+2019-03-13 20:49:19,032 - 贷后自动化测试 - INFO - 点击定位元素id:tSideMenudeductdeduct-index
+2019-03-13 20:49:19,033 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:49:19,069 - 贷后自动化测试 - INFO - 获取定位id:tSideMenudeductdeduct-index
+2019-03-13 20:49:19,569 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:49:19,648 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:19,648 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:19,711 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:20,211 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:20,259 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:20,259 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:20,273 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:20,773 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:49:20,819 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:49:21,319 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:49:21,434 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:49:21,434 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:49:21,447 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:49:21,947 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:49:21,996 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:49:22,013 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:49:22,513 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:49:22,542 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为220.00
+2019-03-13 20:49:22,549 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:49:22,562 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:49:23,062 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:49:23,089 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:49:23,095 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:49:23,108 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:49:23,608 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:49:23,637 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span的文本为0.00
+2019-03-13 20:49:23,642 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:49:23,644 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:49:23,655 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:49:24,155 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:49:24,213 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:49:24,713 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:49:24,746 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:49:25,247 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:49:25,299 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:49:25,299 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:49:25,312 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:49:25,812 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:49:25,865 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:49:26,365 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:49:26,405 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:49:26,405 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:49:26,417 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:49:26,917 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:49:27,007 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:49:27,007 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:49:27,019 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:49:27,519 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:49:27,573 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:49:27,573 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:49:27,591 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:49:28,091 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:49:28,144 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:49:28,144 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:49:28,161 - 贷后自动化测试 - INFO - 获取定位name:tBtnClaimManageClaimConfirm
+2019-03-13 20:49:28,661 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:49:28,717 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:49:28,903 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:49:29,403 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:49:29,431 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]的文本为提交服务方划扣任务成功
+2019-03-13 20:49:36,437 - 贷后自动化测试 - INFO - 第2次划扣，还款管理页面，提交划扣任务成功
+2019-03-13 20:49:36,437 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:49:45,556 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:49:47,154 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:49:47,654 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:49:47,809 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:49:47,811 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:49:47,822 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:49:48,322 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:49:48,377 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:49:48,394 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:49:48,894 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:49:48,921 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:49:48,927 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:49:48,940 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:49:49,440 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:49:49,467 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:49:49,473 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:49:49,486 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:49:49,986 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:49:50,013 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:50:00,019 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:50:09,158 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:50:10,997 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:50:11,497 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:50:11,641 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:50:11,641 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:50:11,654 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:50:12,154 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:50:12,209 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:50:12,227 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:50:12,727 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:50:12,755 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:50:12,760 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:50:12,773 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:50:13,273 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:50:13,301 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:50:13,309 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:50:13,321 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:50:13,821 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:50:13,848 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:50:23,857 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:50:32,976 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:50:34,563 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:50:35,063 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:50:35,194 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:50:35,194 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:50:35,207 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:50:35,707 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:50:35,759 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:50:35,776 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:50:36,276 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:50:36,305 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 0 条
+2019-03-13 20:50:36,312 - 贷后自动化测试 - INFO - 订单划扣结果成功；
+2019-03-13 20:50:36,312 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:50:45,384 - 贷后自动化测试 - INFO - 进入页面-历史划扣
+2019-03-13 20:50:47,278 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:50:47,778 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:50:47,812 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:50:48,312 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:50:48,463 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:50:48,463 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:50:48,476 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:50:48,976 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:50:49,032 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:50:49,055 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:50:49,555 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:50:49,585 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span的文本为共 4 条
+2019-03-13 20:50:49,592 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:50:49,602 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:50:50,102 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:50:50,131 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为100.00
+2019-03-13 20:50:50,138 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:50:50,150 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:50:50,650 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:50:50,678 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:50:50,686 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:50:50,697 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:50:51,197 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:50:51,226 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span的文本为扣款失败
+2019-03-13 20:50:51,233 - 贷后自动化测试 - INFO - {u'\u9884\u5212\u6263\u72b6\u6001': u'\u6263\u6b3e\u5931\u8d25', u'\u5b9e\u9645\u6263\u6b3e\u989d': u'0.00', u'\u9884\u5212\u6263\u91d1\u989d': u'100.00'}
+2019-03-13 20:50:51,233 - 贷后自动化测试 - INFO - 划扣历史页面，划扣失败，重新进行划扣操作
+2019-03-13 20:50:51,233 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:51:00,348 - 贷后自动化测试 - INFO - 进入页面-待还列表
+2019-03-13 20:51:01,634 - 贷后自动化测试 - INFO - 点击定位元素id:tSideMenudeductdeduct-index
+2019-03-13 20:51:01,634 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:51:01,673 - 贷后自动化测试 - INFO - 获取定位id:tSideMenudeductdeduct-index
+2019-03-13 20:51:02,173 - 贷后自动化测试 - INFO - 正在查找元素id:tSideMenudeductdeduct-index
+2019-03-13 20:51:02,269 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:02,269 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:02,338 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:02,838 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:02,885 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:02,885 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:02,898 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:03,398 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductWait"]/div[2]/div[1]/div/div/div[1]/div/div/div/div/div[2]
+2019-03-13 20:51:03,447 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:51:03,947 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:51:04,072 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:51:04,073 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:51:04,086 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:51:04,586 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:51:04,640 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:51:04,657 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:51:05,157 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:51:05,186 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为220.00
+2019-03-13 20:51:05,193 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:51:05,204 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:51:05,704 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:51:05,733 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为0.00
+2019-03-13 20:51:05,742 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:51:05,753 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:51:06,253 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span
+2019-03-13 20:51:06,282 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr[1]/td[9]/div/span的文本为0.00
+2019-03-13 20:51:06,289 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:51:06,289 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:51:06,302 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:51:06,802 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableDeductWaitEJ"]/div/div[2]/table/tbody/tr/td[10]/div/div/a[1]
+2019-03-13 20:51:06,858 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:51:07,358 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:51:07,392 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:51:07,892 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[3]/div/div/input
+2019-03-13 20:51:07,953 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:51:07,953 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:51:07,964 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:51:08,466 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:51:08,522 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:51:09,023 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[1]/div/input
+2019-03-13 20:51:09,063 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:51:09,063 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:51:09,075 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:51:09,575 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[4]/div/div/div[2]/div/div/div/div[4]/button[3]/span
+2019-03-13 20:51:09,637 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:51:09,637 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:51:09,648 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:51:10,150 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[1]/div/span
+2019-03-13 20:51:10,206 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:51:10,207 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:51:10,223 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:51:10,723 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tFormDeductManageClaim"]/div[5]/div/div/div[2]/ul[2]
+2019-03-13 20:51:10,823 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:51:10,823 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:51:10,839 - 贷后自动化测试 - INFO - 获取定位name:tBtnClaimManageClaimConfirm
+2019-03-13 20:51:11,339 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnClaimManageClaimConfirm
+2019-03-13 20:51:11,394 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:51:11,676 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:51:12,176 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]
+2019-03-13 20:51:12,204 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-notice"]/div/div[1]/div/div[2]的文本为提交服务方划扣任务成功
+2019-03-13 20:51:19,210 - 贷后自动化测试 - INFO - 第3次划扣，还款管理页面，提交划扣任务成功
+2019-03-13 20:51:19,210 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:51:28,325 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:51:29,937 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:51:30,437 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:51:30,595 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:51:30,595 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:51:30,608 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:51:31,108 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:51:31,157 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:51:31,174 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:51:31,674 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:51:31,700 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:51:31,707 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:51:31,719 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:51:32,219 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:51:32,246 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:51:32,253 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:51:32,263 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:51:32,763 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:51:32,790 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:51:42,796 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:51:51,907 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:51:53,573 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:51:54,075 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:51:54,220 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:51:54,221 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:51:54,234 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:51:54,736 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:51:54,786 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:51:54,805 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:51:55,305 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:51:55,332 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:51:55,338 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:51:55,349 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:51:55,849 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:51:55,878 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:51:55,885 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:51:55,897 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:51:56,397 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:51:56,424 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:52:06,430 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:52:15,540 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:52:17,155 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:52:17,655 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:52:17,782 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:52:17,782 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:52:17,795 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:52:18,295 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:52:18,346 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:52:18,371 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:52:18,871 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:52:18,898 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:52:18,904 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:52:18,915 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:52:19,415 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:52:19,444 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:52:19,451 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:52:19,463 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:52:19,963 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:52:19,993 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为等待扣款
+2019-03-13 20:52:30,016 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:52:39,125 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:52:40,724 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:52:41,224 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:52:41,357 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:52:41,357 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:52:41,369 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:52:41,869 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:52:41,921 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:52:41,938 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:52:42,438 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:52:42,466 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 1 条
+2019-03-13 20:52:42,471 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:52:42,483 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:52:42,983 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span
+2019-03-13 20:52:43,012 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[8]/div/span的文本为100.00
+2019-03-13 20:52:43,019 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:52:43,029 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:52:43,529 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span
+2019-03-13 20:52:43,556 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="ivu-tabs-content"]/div[1]/div/div[3]/div/div[2]/table/tbody/tr/td[10]/div/span的文本为扣款中
+2019-03-13 20:52:53,563 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:53:02,678 - 贷后自动化测试 - INFO - 进入页面-划扣列表
+2019-03-13 20:53:04,408 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 20:53:04,908 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 20:53:05,039 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 20:53:05,039 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:53:05,052 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 20:53:05,552 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 20:53:05,608 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:53:05,634 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:53:06,134 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span
+2019-03-13 20:53:06,167 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductListEJ"]/div[2]/div[1]/div/div[4]/ul/span的文本为共 0 条
+2019-03-13 20:53:06,174 - 贷后自动化测试 - INFO - 订单划扣结果成功；
+2019-03-13 20:53:06,174 - 贷后自动化测试 - INFO - 关闭其他页签或全部页签
+2019-03-13 20:53:15,249 - 贷后自动化测试 - INFO - 进入页面-历史划扣
+2019-03-13 20:53:17,028 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:53:17,529 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:53:17,563 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:53:18,065 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[1]/div/div/input
+2019-03-13 20:53:18,194 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:53:18,194 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:53:18,207 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:53:18,707 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[1]/form/div[8]/div/button[1]
+2019-03-13 20:53:18,839 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:53:18,904 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:53:19,404 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span
+2019-03-13 20:53:19,433 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[3]/ul/span的文本为共 5 条
+2019-03-13 20:53:19,440 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:53:19,450 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:53:19,950 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span
+2019-03-13 20:53:19,980 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[7]/div/span的文本为100.00
+2019-03-13 20:53:19,986 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:53:19,999 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:53:20,499 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span
+2019-03-13 20:53:20,528 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[8]/div/span的文本为100.00
+2019-03-13 20:53:20,533 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:53:20,546 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:53:21,046 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span
+2019-03-13 20:53:21,075 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name="tTagDeductHistoryEJ"]/div[2]/div[1]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[10]/div/span的文本为扣款成功
+2019-03-13 20:53:21,081 - 贷后自动化测试 - INFO - {u'\u9884\u5212\u6263\u72b6\u6001': u'\u6263\u6b3e\u6210\u529f', u'\u5b9e\u9645\u6263\u6b3e\u989d': u'100.00', u'\u9884\u5212\u6263\u91d1\u989d': u'100.00'}
+2019-03-13 20:53:21,082 - 贷后自动化测试 - INFO - 3.4、划扣历史页面，划扣成功
+2019-03-13 20:53:21,082 - 贷后自动化测试 - INFO - 4、进入订单详情页，检查还款信息以及服务费清单数据是否正确；
+2019-03-13 20:53:21,082 - 贷后自动化测试 - INFO - 进入订单详情页
+2019-03-13 20:53:23,380 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:53:23,380 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:53:23,528 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:53:24,029 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 20:53:24,108 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 20:53:24,134 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 20:53:24,634 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 20:53:24,664 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span的文本为共 1 条
+2019-03-13 20:53:24,671 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[3]/div/span
+2019-03-13 20:53:24,684 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[3]/div/span
+2019-03-13 20:53:25,184 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[3]/div/span
+2019-03-13 20:53:25,210 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[3]/div/span的文本为服务方-划扣
+2019-03-13 20:53:25,217 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[6]/div/span
+2019-03-13 20:53:25,230 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[6]/div/span
+2019-03-13 20:53:25,730 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[6]/div/span
+2019-03-13 20:53:25,756 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[1]/div/div[2]/table/tbody/tr/td[6]/div/span的文本为100.00
+2019-03-13 20:53:25,763 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:53:25,765 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:53:25,776 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:53:26,276 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 20:53:26,355 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 20:53:26,440 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 20:53:26,941 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 20:53:26,969 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span的文本为77
+2019-03-13 20:53:26,976 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 20:53:26,986 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 20:53:27,486 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 20:53:27,513 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span的文本为23
+2019-03-13 20:53:27,520 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 20:53:27,532 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 20:53:28,032 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 20:53:28,069 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span的文本为0
+2019-03-13 20:53:28,079 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 20:53:28,096 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 20:53:28,596 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 20:53:28,657 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span的文本为0
+2019-03-13 20:53:28,664 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 20:53:28,676 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 20:53:29,176 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 20:53:29,203 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span的文本为0
+2019-03-13 20:57:07,096 - 贷后自动化测试 - INFO - 启动webdriver
+2019-03-13 20:57:13,716 - 贷后自动化测试 - INFO - 获取定位id:account
+2019-03-13 20:57:14,216 - 贷后自动化测试 - INFO - 正在查找元素id:account
+2019-03-13 20:57:14,290 - 贷后自动化测试 - INFO - 获取定位id:verification
+2019-03-13 20:57:14,790 - 贷后自动化测试 - INFO - 正在查找元素id:verification
+2019-03-13 20:57:14,842 - 贷后自动化测试 - INFO - 获取定位id:txtPhoneCertify
+2019-03-13 20:57:15,342 - 贷后自动化测试 - INFO - 正在查找元素id:txtPhoneCertify
+2019-03-13 20:57:15,392 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[text()="登录"]
+2019-03-13 20:57:15,392 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 20:57:15,404 - 贷后自动化测试 - INFO - 获取定位xpath://*[text()="登录"]
+2019-03-13 20:57:15,904 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 20:57:15,960 - 贷后自动化测试 - INFO - 验证新进订单，进单日期为当前日期，进行划扣操作；
+2019-03-13 20:57:15,960 - 贷后自动化测试 - INFO - 1、使用接口进单；
+2019-03-13 20:57:16,237 - 贷后自动化测试 - INFO - {"borrowerBaseInfos": [{"customerName": "\u9dff\u9d48\u6b86", "customerNo": "510104199001010940", "customerPropertiy": "1", "telephone": "18693080140", "reason": "", "relation": "", "addressProvinceCode": 620000, "addressCityCode": 620100, "addressDetail": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "1", "addressAreaCode": 510104}, {"customerName": "\u9a6c\u5f3a", "customerNo": "510104198601013833", "customerPropertiy": "1", "telephone": "17621032210", "reason": "0002300003", "relation": "0001700002", "addressProvinceCode": 460000, "addressCityCode": 460200, "addressDetail": "\u5171\u501f\u4eba\u5e38\u9a7b\u5730\u5740208", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}, {"customerName": "\u738b\u82b3\u82b3", "customerNo": "620101199002287243", "customerPropertiy": "1", "telephone": "17621032208", "reason": "0002300001", "relation": "0001700005", "addressProvinceCode": 610000, "addressCityCode": 610100, "addressDetail": "\u914d\u5076\u7684\u5e38\u9a7b\u5730\u5740\u8be6\u7ec6", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}], "contract": [{"remark": "", "extra": {"overduePrice": "", "customerName": "\u9dff\u9d48\u6b86", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "companyTelephone": "0011200003", "concessionCh": "\u8d30\u62fe\u8d30\u5143\u6574", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010102", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "33", "signDate": "2019-01-24", "proxyPriceCh": "\u8086\u62fe\u8086\u5143\u6574", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "proxyPrice": "44", "contractType": "123", "companyEmail": "0011700001", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "560", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "\u58f9\u62fe\u58f9\u5143\u6574", "documentNumber": "510104199001010940", "companyBankno": "0011600002", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "11", "agenPriceCh": "\u53c1\u62fe\u53c1\u5143\u6574", "companyAddress": "0011400001", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "22", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010102", "configContractId": "01c402a307c04987ae638a6a1198a2b7", "contractFileId": "038c7e806d2b4df78d877acec0cdae04", "contractName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx"}, {"remark": "", "extra": {"serviceAmountCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "month": "01", "companyTelephone": "0011200003", "concessionCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "advance_3_2": "3", "inputDept": "1571404b501940b385112b937ae8d988", "companyBankno": "0011600002", "proxyPrice": "", "contractType": "122", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "561", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_2": "1", "concession_1_1": "1", "advance_5_1": "5", "advance_5_2": "5", "concessions": "1-1|2-2|3-3|4-4|5-5|6", "concession_3_1": "3", "documentNumber": "510104199001010940", "advance_3_1": "3", "email": "power228@qq.com", "companyName": "0011100002", "serviceAmount": "55", "advance": "1-1|2-2|3-3|4-4|5-5|6", "agenPriceCh": "", "concession_3_2": "3", "s": "12|12|12|12|12|12", "concession_5_2": "5", "concession_5_1": "5", "signAddress": [110000, 110100, 110101], "concession_4_2": "4", "concession_4_1": "4", "customerName": "\u9dff\u9d48\u6b86", "advance_1_1": "1", "advance_1_2": "1", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "concession_6_1": "6", "cp": "12|12|12|12|12|12", "beforetime": "04:04", "advance_6_1": "6", "city": "\u5e02\u8f96\u533a", "advance_4_2": "4", "area": "\u4e1c\u57ce\u533a", "advance_4_1": "4", "serviceNumber": "YJ2105129920190124000010103", "companyBank": "0011500001", "agenPrice": "", "signDate": "2019-01-24", "concession_2_1": "2", "concession_2_2": "2", "proxyPriceCh": "", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "advance_2_2": "2", "companyEmail": "0011700001", "advance_2_1": "2", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "telephone": "18693080140", "beforeDay": "", "s3": "12", "s2": "12", "s1": "12", "overduePrice": "12", "s6": "12", "s5": "12", "s4": "12", "cp1": "12", "cp2": "12", "cp3": "12", "cp4": "12", "cp5": "12", "cp6": "12", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "concession_1_ch": "", "bankno": "6214830283467990", "concession": "55", "contractName": "", "companyAddress": "0011400002", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c"}, "contractNumber": "YJ2105129920190124000010103", "configContractId": "3b29254360d14dac8b410668e48ae18e", "contractFileId": "1bad80ac76f34278a7fd718f31e99474", "contractName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx"}, {"remark": "", "extra": {"overduePrice": "", "customerName": "\u9dff\u9d48\u6b86", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "\u67d2\u62fe\u67d2\u5143\u6574", "companyTelephone": "", "concessionCh": "", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010104", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "", "signDate": "2019-01-24", "proxyPriceCh": "", "loanFee": "77", "contractAmount": "", "concession_1": "", "proxyPrice": "", "contractType": "124", "companyEmail": "", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "562", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "", "documentNumber": "510104199001010940", "companyBankno": "0011600001", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "", "agenPriceCh": "", "companyAddress": "0011400002", "contractAmountCh": "", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010104", "configContractId": "ba2f537fc8f04e04bdee90f820be0ed8", "contractFileId": "85fc3d7d985e44df91114edc93c0b536", "contractName": "4\u670d\u52a1\u534f\u8bae.docx"}], "capitalInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "loanInfo": {"deptId": "33f1f497727b402c95607439f522ef68", "funderProductConfig": "1", "repayMethodText": "\u7b49\u989d\u672c\u606f", "rateText": 0.086, "customerName": "\u9dff\u9d48\u6b86", "serviceLimit": 12, "compreRateText": 12.0, "loanLimit": 12, "contractNumber": "YJJR028201901240000101", "loanDate": 1552481835000, "platformNumber": "0009800021", "transferDate": "", "customerAll": "\u9a6c\u5f3a", "businessNumber": "x1ufmopdjsjqnyvx4ta2z80o6ft5si9e", "salerId": "afa666767df24184982a2f84c4afde54", "isSpecial": "", "funder": "0009800003", "fileNumber": "2019031320570", "customerNo": "510104199001010940", "isCombo": 0, "productId": "0001000001"}, "borrowerLoanInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "jointerId": "013a2f5c1e1f4e0eaba38d0f7d0a9318", "attachInfo": [{"available": 1, "sort": 0, "attachType": "docx", "attachName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "123", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:07:28", "thumbUrl": "", "url": "038c7e806d2b4df78d877acec0cdae04", "classifyId": 123, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374330, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "122", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:09", "thumbUrl": "", "url": "1bad80ac76f34278a7fd718f31e99474", "classifyId": 122, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374331, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "4\u670d\u52a1\u534f\u8bae.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "124", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:28", "thumbUrl": "", "url": "85fc3d7d985e44df91114edc93c0b536", "classifyId": 124, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374332, "inputFlow": ""}], "bankcardInfos": [{"code": "308", "tel": "18693080140", "number": "6214830283467990", "master": "\u9dff\u9d48\u6b86", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "1"}, {"code": "308", "tel": "17621032205", "number": "6214830283467990", "master": "\u9dff\u9d48\u6b86", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "2"}], "guarantyInfos": [{"fastSellPrice": "", "mortgageStatus": 2, "primaryAssessFileId": "", "carMileage": 0.0, "residentDetail": "\u5c45\u4f4f\u4eba\u5458---------------\u521d\u8bc4\u5f55\u5165", "carNumber": "", "source": "0006900001", "isPeripheralBusiness": "", "decorateStatus": "0007200001", "useage": "0006800001", "certificateNumber": "chanquan001", "agencyTele": "", "fastSellTime": "", "brand": "", "SaddressDetail": "\u5927\u4e1a\u8def205\u53f7", "landLife": "0007000003", "maintainStatus": "0007800001", "faceStreet": "0008000001", "propertyType": "", "addressProvinceCode": 510000, "landCertificateNumber": "", "certificateName": "", "latestAssessment": "", "addressCityCode": 510100, "sharePercent": [{"name": "\u8c03\u8bd5\u4e00"}, {"name": "\u738b\u82b3\u82b3"}], "buyDate": "2008-08-08 00:00:00", "leftUseTime": "", "hasGarden": "", "assessmentReportId": "", "house": "\u697c\u76d8\u540d\u79f0", "assessPrice": "", "displacement": "", "accessTotle": 200.0, "totleFloor": "", "shareStatus": "0007500002", "trafficConvenience": "0014100001", "floor": 33, "repeatAssessFileId": "", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "hasBalcony": "", "classify": "0006100001", "notarizationFileId": "", "degree": "0007900001", "nature": "0007600001", "foundYears": "2008", "realEstateCertificateNumber": "", "currentUsage": "0014000001", "acreage": 100.0, "mortgageFileId": "", "assessDate": "", "carType": "", "carColor": "", "buildingStructure": "0014300001", "ventilationStatus": "0007700001", "addressAreaCode": 510104}]}
+2019-03-13 20:57:16,242 - 贷后自动化测试 - INFO - 进件请求结果:成功
+2019-03-13 20:57:16,242 - 贷后自动化测试 - INFO - 获取鷿鵈殆的订单ID
+2019-03-13 20:57:18,678 - 贷后自动化测试 - INFO - 进入订单详情页
+2019-03-13 20:57:20,473 - 贷后自动化测试 - INFO - 2、获取订单相关信息，验证金额、客户名、当前贷款期限、当前还款信息等是否正确；
+2019-03-13 20:57:20,473 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 20:57:20,904 - 贷后自动化测试 - INFO - 获取定位xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 20:57:21,404 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 20:57:21,430 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]的文本为鷿鵈殆
+2019-03-13 20:57:26,464 - 贷后自动化测试 - INFO - 启动webdriver
+2019-03-13 20:57:33,838 - 贷后自动化测试 - INFO - 获取定位id:account
+2019-03-13 20:57:34,338 - 贷后自动化测试 - INFO - 正在查找元素id:account
+2019-03-13 20:57:34,407 - 贷后自动化测试 - INFO - 获取定位id:verification
+2019-03-13 20:57:34,907 - 贷后自动化测试 - INFO - 正在查找元素id:verification
+2019-03-13 20:57:34,957 - 贷后自动化测试 - INFO - 获取定位id:txtPhoneCertify
+2019-03-13 20:57:35,457 - 贷后自动化测试 - INFO - 正在查找元素id:txtPhoneCertify
+2019-03-13 20:57:35,510 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[text()="登录"]
+2019-03-13 20:57:35,510 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 20:57:35,523 - 贷后自动化测试 - INFO - 获取定位xpath://*[text()="登录"]
+2019-03-13 20:57:36,023 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 20:57:36,079 - 贷后自动化测试 - INFO - 验证新进订单，进单日期为一个月前日期，进行划扣（第一期期收和贷前费用）操作；
+2019-03-13 20:57:36,079 - 贷后自动化测试 - INFO - 1、使用接口进单；
+2019-03-13 20:57:36,328 - 贷后自动化测试 - INFO - {"borrowerBaseInfos": [{"customerName": "\u6d4b\u78dd\u5da1", "customerNo": "510104199001010940", "customerPropertiy": "1", "telephone": "18693080140", "reason": "", "relation": "", "addressProvinceCode": 620000, "addressCityCode": 620100, "addressDetail": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "1", "addressAreaCode": 510104}, {"customerName": "\u9a6c\u5f3a", "customerNo": "510104198601013833", "customerPropertiy": "1", "telephone": "17621032210", "reason": "0002300003", "relation": "0001700002", "addressProvinceCode": 460000, "addressCityCode": 460200, "addressDetail": "\u5171\u501f\u4eba\u5e38\u9a7b\u5730\u5740208", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}, {"customerName": "\u738b\u82b3\u82b3", "customerNo": "620101199002287243", "customerPropertiy": "1", "telephone": "17621032208", "reason": "0002300001", "relation": "0001700005", "addressProvinceCode": 610000, "addressCityCode": 610100, "addressDetail": "\u914d\u5076\u7684\u5e38\u9a7b\u5730\u5740\u8be6\u7ec6", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}], "contract": [{"remark": "", "extra": {"overduePrice": "", "customerName": "\u6d4b\u78dd\u5da1", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "companyTelephone": "0011200003", "concessionCh": "\u8d30\u62fe\u8d30\u5143\u6574", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010102", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "33", "signDate": "2019-01-24", "proxyPriceCh": "\u8086\u62fe\u8086\u5143\u6574", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "proxyPrice": "44", "contractType": "123", "companyEmail": "0011700001", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "560", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "\u58f9\u62fe\u58f9\u5143\u6574", "documentNumber": "510104199001010940", "companyBankno": "0011600002", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "11", "agenPriceCh": "\u53c1\u62fe\u53c1\u5143\u6574", "companyAddress": "0011400001", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "22", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010102", "configContractId": "01c402a307c04987ae638a6a1198a2b7", "contractFileId": "038c7e806d2b4df78d877acec0cdae04", "contractName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx"}, {"remark": "", "extra": {"serviceAmountCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "month": "01", "companyTelephone": "0011200003", "concessionCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "advance_3_2": "3", "inputDept": "1571404b501940b385112b937ae8d988", "companyBankno": "0011600002", "proxyPrice": "", "contractType": "122", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "561", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_2": "1", "concession_1_1": "1", "advance_5_1": "5", "advance_5_2": "5", "concessions": "1-1|2-2|3-3|4-4|5-5|6", "concession_3_1": "3", "documentNumber": "510104199001010940", "advance_3_1": "3", "email": "power228@qq.com", "companyName": "0011100002", "serviceAmount": "55", "advance": "1-1|2-2|3-3|4-4|5-5|6", "agenPriceCh": "", "concession_3_2": "3", "s": "12|12|12|12|12|12", "concession_5_2": "5", "concession_5_1": "5", "signAddress": [110000, 110100, 110101], "concession_4_2": "4", "concession_4_1": "4", "customerName": "\u6d4b\u78dd\u5da1", "advance_1_1": "1", "advance_1_2": "1", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "concession_6_1": "6", "cp": "12|12|12|12|12|12", "beforetime": "04:04", "advance_6_1": "6", "city": "\u5e02\u8f96\u533a", "advance_4_2": "4", "area": "\u4e1c\u57ce\u533a", "advance_4_1": "4", "serviceNumber": "YJ2105129920190124000010103", "companyBank": "0011500001", "agenPrice": "", "signDate": "2019-01-24", "concession_2_1": "2", "concession_2_2": "2", "proxyPriceCh": "", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "advance_2_2": "2", "companyEmail": "0011700001", "advance_2_1": "2", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "telephone": "18693080140", "beforeDay": "", "s3": "12", "s2": "12", "s1": "12", "overduePrice": "12", "s6": "12", "s5": "12", "s4": "12", "cp1": "12", "cp2": "12", "cp3": "12", "cp4": "12", "cp5": "12", "cp6": "12", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "concession_1_ch": "", "bankno": "6214830283467990", "concession": "55", "contractName": "", "companyAddress": "0011400002", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c"}, "contractNumber": "YJ2105129920190124000010103", "configContractId": "3b29254360d14dac8b410668e48ae18e", "contractFileId": "1bad80ac76f34278a7fd718f31e99474", "contractName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx"}, {"remark": "", "extra": {"overduePrice": "", "customerName": "\u6d4b\u78dd\u5da1", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "\u67d2\u62fe\u67d2\u5143\u6574", "companyTelephone": "", "concessionCh": "", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010104", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "", "signDate": "2019-01-24", "proxyPriceCh": "", "loanFee": "77", "contractAmount": "", "concession_1": "", "proxyPrice": "", "contractType": "124", "companyEmail": "", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "562", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "", "documentNumber": "510104199001010940", "companyBankno": "0011600001", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "", "agenPriceCh": "", "companyAddress": "0011400002", "contractAmountCh": "", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010104", "configContractId": "ba2f537fc8f04e04bdee90f820be0ed8", "contractFileId": "85fc3d7d985e44df91114edc93c0b536", "contractName": "4\u670d\u52a1\u534f\u8bae.docx"}], "capitalInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "loanInfo": {"deptId": "33f1f497727b402c95607439f522ef68", "funderProductConfig": "1", "repayMethodText": "\u7b49\u989d\u672c\u606f", "rateText": 0.086, "customerName": "\u6d4b\u78dd\u5da1", "serviceLimit": 12, "compreRateText": 12.0, "loanLimit": 12, "contractNumber": "YJJR028201901240000101", "loanDate": 1550062656000, "platformNumber": "0009800021", "transferDate": "", "customerAll": "\u9a6c\u5f3a", "businessNumber": "unjf7nmm0g38fg6u4bczl9sttijkesvx", "salerId": "afa666767df24184982a2f84c4afde54", "isSpecial": "", "funder": "0009800003", "fileNumber": "2019031320572", "customerNo": "510104199001010940", "isCombo": 0, "productId": "0001000001"}, "borrowerLoanInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "jointerId": "013a2f5c1e1f4e0eaba38d0f7d0a9318", "attachInfo": [{"available": 1, "sort": 0, "attachType": "docx", "attachName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "123", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:07:28", "thumbUrl": "", "url": "038c7e806d2b4df78d877acec0cdae04", "classifyId": 123, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374330, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "122", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:09", "thumbUrl": "", "url": "1bad80ac76f34278a7fd718f31e99474", "classifyId": 122, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374331, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "4\u670d\u52a1\u534f\u8bae.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "124", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:28", "thumbUrl": "", "url": "85fc3d7d985e44df91114edc93c0b536", "classifyId": 124, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374332, "inputFlow": ""}], "bankcardInfos": [{"code": "308", "tel": "18693080140", "number": "6214830283467990", "master": "\u6d4b\u78dd\u5da1", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "1"}, {"code": "308", "tel": "17621032205", "number": "6214830283467990", "master": "\u6d4b\u78dd\u5da1", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "2"}], "guarantyInfos": [{"fastSellPrice": "", "mortgageStatus": 2, "primaryAssessFileId": "", "carMileage": 0.0, "residentDetail": "\u5c45\u4f4f\u4eba\u5458---------------\u521d\u8bc4\u5f55\u5165", "carNumber": "", "source": "0006900001", "isPeripheralBusiness": "", "decorateStatus": "0007200001", "useage": "0006800001", "certificateNumber": "chanquan001", "agencyTele": "", "fastSellTime": "", "brand": "", "SaddressDetail": "\u5927\u4e1a\u8def205\u53f7", "landLife": "0007000003", "maintainStatus": "0007800001", "faceStreet": "0008000001", "propertyType": "", "addressProvinceCode": 510000, "landCertificateNumber": "", "certificateName": "", "latestAssessment": "", "addressCityCode": 510100, "sharePercent": [{"name": "\u8c03\u8bd5\u4e00"}, {"name": "\u738b\u82b3\u82b3"}], "buyDate": "2008-08-08 00:00:00", "leftUseTime": "", "hasGarden": "", "assessmentReportId": "", "house": "\u697c\u76d8\u540d\u79f0", "assessPrice": "", "displacement": "", "accessTotle": 200.0, "totleFloor": "", "shareStatus": "0007500002", "trafficConvenience": "0014100001", "floor": 33, "repeatAssessFileId": "", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "hasBalcony": "", "classify": "0006100001", "notarizationFileId": "", "degree": "0007900001", "nature": "0007600001", "foundYears": "2008", "realEstateCertificateNumber": "", "currentUsage": "0014000001", "acreage": 100.0, "mortgageFileId": "", "assessDate": "", "carType": "", "carColor": "", "buildingStructure": "0014300001", "ventilationStatus": "0007700001", "addressAreaCode": 510104}]}
+2019-03-13 20:57:36,332 - 贷后自动化测试 - INFO - 进件请求结果:成功
+2019-03-13 20:57:36,332 - 贷后自动化测试 - INFO - 获取测磝嶡的订单ID
+2019-03-13 20:59:51,704 - 贷后自动化测试 - INFO - 启动webdriver
+2019-03-13 20:59:58,299 - 贷后自动化测试 - INFO - 获取定位id:account
+2019-03-13 20:59:58,799 - 贷后自动化测试 - INFO - 正在查找元素id:account
+2019-03-13 20:59:58,869 - 贷后自动化测试 - INFO - 获取定位id:verification
+2019-03-13 20:59:59,369 - 贷后自动化测试 - INFO - 正在查找元素id:verification
+2019-03-13 20:59:59,421 - 贷后自动化测试 - INFO - 获取定位id:txtPhoneCertify
+2019-03-13 20:59:59,921 - 贷后自动化测试 - INFO - 正在查找元素id:txtPhoneCertify
+2019-03-13 20:59:59,970 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[text()="登录"]
+2019-03-13 20:59:59,971 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 20:59:59,983 - 贷后自动化测试 - INFO - 获取定位xpath://*[text()="登录"]
+2019-03-13 21:00:00,483 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 21:00:00,539 - 贷后自动化测试 - INFO - 验证新进订单，进单日期为当前日期，进行划扣操作；
+2019-03-13 21:00:00,539 - 贷后自动化测试 - INFO - 1、使用接口进单；
+2019-03-13 21:00:00,744 - 贷后自动化测试 - INFO - {"borrowerBaseInfos": [{"customerName": "\u9331\u7cbe\u50e6", "customerNo": "510104199001010940", "customerPropertiy": "1", "telephone": "18693080140", "reason": "", "relation": "", "addressProvinceCode": 620000, "addressCityCode": 620100, "addressDetail": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "1", "addressAreaCode": 510104}, {"customerName": "\u9a6c\u5f3a", "customerNo": "510104198601013833", "customerPropertiy": "1", "telephone": "17621032210", "reason": "0002300003", "relation": "0001700002", "addressProvinceCode": 460000, "addressCityCode": 460200, "addressDetail": "\u5171\u501f\u4eba\u5e38\u9a7b\u5730\u5740208", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}, {"customerName": "\u738b\u82b3\u82b3", "customerNo": "620101199002287243", "customerPropertiy": "1", "telephone": "17621032208", "reason": "0002300001", "relation": "0001700005", "addressProvinceCode": 610000, "addressCityCode": 610100, "addressDetail": "\u914d\u5076\u7684\u5e38\u9a7b\u5730\u5740\u8be6\u7ec6", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}], "contract": [{"remark": "", "extra": {"overduePrice": "", "customerName": "\u9331\u7cbe\u50e6", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "companyTelephone": "0011200003", "concessionCh": "\u8d30\u62fe\u8d30\u5143\u6574", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010102", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "33", "signDate": "2019-01-24", "proxyPriceCh": "\u8086\u62fe\u8086\u5143\u6574", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "proxyPrice": "44", "contractType": "123", "companyEmail": "0011700001", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "560", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "\u58f9\u62fe\u58f9\u5143\u6574", "documentNumber": "510104199001010940", "companyBankno": "0011600002", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "11", "agenPriceCh": "\u53c1\u62fe\u53c1\u5143\u6574", "companyAddress": "0011400001", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "22", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010102", "configContractId": "01c402a307c04987ae638a6a1198a2b7", "contractFileId": "038c7e806d2b4df78d877acec0cdae04", "contractName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx"}, {"remark": "", "extra": {"serviceAmountCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "month": "01", "companyTelephone": "0011200003", "concessionCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "advance_3_2": "3", "inputDept": "1571404b501940b385112b937ae8d988", "companyBankno": "0011600002", "proxyPrice": "", "contractType": "122", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "561", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_2": "1", "concession_1_1": "1", "advance_5_1": "5", "advance_5_2": "5", "concessions": "1-1|2-2|3-3|4-4|5-5|6", "concession_3_1": "3", "documentNumber": "510104199001010940", "advance_3_1": "3", "email": "power228@qq.com", "companyName": "0011100002", "serviceAmount": "55", "advance": "1-1|2-2|3-3|4-4|5-5|6", "agenPriceCh": "", "concession_3_2": "3", "s": "12|12|12|12|12|12", "concession_5_2": "5", "concession_5_1": "5", "signAddress": [110000, 110100, 110101], "concession_4_2": "4", "concession_4_1": "4", "customerName": "\u9331\u7cbe\u50e6", "advance_1_1": "1", "advance_1_2": "1", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "concession_6_1": "6", "cp": "12|12|12|12|12|12", "beforetime": "04:04", "advance_6_1": "6", "city": "\u5e02\u8f96\u533a", "advance_4_2": "4", "area": "\u4e1c\u57ce\u533a", "advance_4_1": "4", "serviceNumber": "YJ2105129920190124000010103", "companyBank": "0011500001", "agenPrice": "", "signDate": "2019-01-24", "concession_2_1": "2", "concession_2_2": "2", "proxyPriceCh": "", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "advance_2_2": "2", "companyEmail": "0011700001", "advance_2_1": "2", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "telephone": "18693080140", "beforeDay": "", "s3": "12", "s2": "12", "s1": "12", "overduePrice": "12", "s6": "12", "s5": "12", "s4": "12", "cp1": "12", "cp2": "12", "cp3": "12", "cp4": "12", "cp5": "12", "cp6": "12", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "concession_1_ch": "", "bankno": "6214830283467990", "concession": "55", "contractName": "", "companyAddress": "0011400002", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c"}, "contractNumber": "YJ2105129920190124000010103", "configContractId": "3b29254360d14dac8b410668e48ae18e", "contractFileId": "1bad80ac76f34278a7fd718f31e99474", "contractName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx"}, {"remark": "", "extra": {"overduePrice": "", "customerName": "\u9331\u7cbe\u50e6", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "\u67d2\u62fe\u67d2\u5143\u6574", "companyTelephone": "", "concessionCh": "", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010104", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "", "signDate": "2019-01-24", "proxyPriceCh": "", "loanFee": "77", "contractAmount": "", "concession_1": "", "proxyPrice": "", "contractType": "124", "companyEmail": "", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "562", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "", "documentNumber": "510104199001010940", "companyBankno": "0011600001", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "", "agenPriceCh": "", "companyAddress": "0011400002", "contractAmountCh": "", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010104", "configContractId": "ba2f537fc8f04e04bdee90f820be0ed8", "contractFileId": "85fc3d7d985e44df91114edc93c0b536", "contractName": "4\u670d\u52a1\u534f\u8bae.docx"}], "capitalInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "loanInfo": {"deptId": "33f1f497727b402c95607439f522ef68", "funderProductConfig": "1", "repayMethodText": "\u7b49\u989d\u672c\u606f", "rateText": 0.086, "customerName": "\u9331\u7cbe\u50e6", "serviceLimit": 12, "compreRateText": 12.0, "loanLimit": 12, "contractNumber": "YJJR028201901240000101", "loanDate": 1552482000000, "platformNumber": "0009800021", "transferDate": "", "customerAll": "\u9a6c\u5f3a", "businessNumber": "uboz5al7eam469jpwfcelhvo8bzgyfky", "salerId": "afa666767df24184982a2f84c4afde54", "isSpecial": "", "funder": "0009800003", "fileNumber": "2019031320595", "customerNo": "510104199001010940", "isCombo": 0, "productId": "0001000001"}, "borrowerLoanInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "jointerId": "013a2f5c1e1f4e0eaba38d0f7d0a9318", "attachInfo": [{"available": 1, "sort": 0, "attachType": "docx", "attachName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "123", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:07:28", "thumbUrl": "", "url": "038c7e806d2b4df78d877acec0cdae04", "classifyId": 123, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374330, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "122", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:09", "thumbUrl": "", "url": "1bad80ac76f34278a7fd718f31e99474", "classifyId": 122, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374331, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "4\u670d\u52a1\u534f\u8bae.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "124", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:28", "thumbUrl": "", "url": "85fc3d7d985e44df91114edc93c0b536", "classifyId": 124, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374332, "inputFlow": ""}], "bankcardInfos": [{"code": "308", "tel": "18693080140", "number": "6214830283467990", "master": "\u9331\u7cbe\u50e6", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "1"}, {"code": "308", "tel": "17621032205", "number": "6214830283467990", "master": "\u9331\u7cbe\u50e6", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "2"}], "guarantyInfos": [{"fastSellPrice": "", "mortgageStatus": 2, "primaryAssessFileId": "", "carMileage": 0.0, "residentDetail": "\u5c45\u4f4f\u4eba\u5458---------------\u521d\u8bc4\u5f55\u5165", "carNumber": "", "source": "0006900001", "isPeripheralBusiness": "", "decorateStatus": "0007200001", "useage": "0006800001", "certificateNumber": "chanquan001", "agencyTele": "", "fastSellTime": "", "brand": "", "SaddressDetail": "\u5927\u4e1a\u8def205\u53f7", "landLife": "0007000003", "maintainStatus": "0007800001", "faceStreet": "0008000001", "propertyType": "", "addressProvinceCode": 510000, "landCertificateNumber": "", "certificateName": "", "latestAssessment": "", "addressCityCode": 510100, "sharePercent": [{"name": "\u8c03\u8bd5\u4e00"}, {"name": "\u738b\u82b3\u82b3"}], "buyDate": "2008-08-08 00:00:00", "leftUseTime": "", "hasGarden": "", "assessmentReportId": "", "house": "\u697c\u76d8\u540d\u79f0", "assessPrice": "", "displacement": "", "accessTotle": 200.0, "totleFloor": "", "shareStatus": "0007500002", "trafficConvenience": "0014100001", "floor": 33, "repeatAssessFileId": "", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "hasBalcony": "", "classify": "0006100001", "notarizationFileId": "", "degree": "0007900001", "nature": "0007600001", "foundYears": "2008", "realEstateCertificateNumber": "", "currentUsage": "0014000001", "acreage": 100.0, "mortgageFileId": "", "assessDate": "", "carType": "", "carColor": "", "buildingStructure": "0014300001", "ventilationStatus": "0007700001", "addressAreaCode": 510104}]}
+2019-03-13 21:00:00,746 - 贷后自动化测试 - INFO - 进件请求结果:成功
+2019-03-13 21:00:00,746 - 贷后自动化测试 - INFO - 获取錱精僦的订单ID
+2019-03-13 21:00:03,167 - 贷后自动化测试 - INFO - 进入订单详情页
+2019-03-13 21:00:04,970 - 贷后自动化测试 - INFO - 2、获取订单相关信息，验证金额、客户名、当前贷款期限、当前还款信息等是否正确；
+2019-03-13 21:00:04,970 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 21:00:05,407 - 贷后自动化测试 - INFO - 获取定位xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 21:00:05,908 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]
+2019-03-13 21:00:05,937 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div[1]的文本为錱精僦
+2019-03-13 21:00:05,944 - 贷后自动化测试 - ERROR - 进单客户和订单实际客户正确
+2019-03-13 21:00:05,944 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]
+2019-03-13 21:00:05,956 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]
+2019-03-13 21:00:06,456 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]
+2019-03-13 21:00:06,487 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[2]/td[2]的文本为300,000.00
+2019-03-13 21:00:06,493 - 贷后自动化测试 - ERROR - 贷款金额正确
+2019-03-13 21:00:06,493 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]
+2019-03-13 21:00:06,505 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]
+2019-03-13 21:00:07,005 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]
+2019-03-13 21:00:07,030 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem"]/table[@class="detailTable"]/tbody/tr[4]/td[3]的文本为1
+2019-03-13 21:00:07,036 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 21:00:07,038 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 21:00:07,049 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 21:00:07,549 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[5]
+2019-03-13 21:00:07,630 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 21:00:07,657 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 21:00:08,157 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span
+2019-03-13 21:00:08,186 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@class="detailItem2"]/div/div[2]/div[4]/div/div[2]/ul/span的文本为共 0 条
+2019-03-13 21:00:08,191 - 贷后自动化测试 - ERROR - 订单当前还款信息为0
+2019-03-13 21:00:08,191 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:08,191 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:08,207 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:08,707 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:08,789 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 21:00:08,881 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 21:00:09,381 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span
+2019-03-13 21:00:09,407 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[3]/div/span的文本为0
+2019-03-13 21:00:09,413 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 21:00:09,424 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 21:00:09,924 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span
+2019-03-13 21:00:09,956 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[3]/div/span的文本为0
+2019-03-13 21:00:09,963 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 21:00:09,974 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 21:00:10,474 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span
+2019-03-13 21:00:10,503 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[3]/div/span的文本为0
+2019-03-13 21:00:10,509 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 21:00:10,522 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 21:00:11,022 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span
+2019-03-13 21:00:11,051 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[3]/div/span的文本为0
+2019-03-13 21:00:11,058 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 21:00:11,072 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 21:00:11,572 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span
+2019-03-13 21:00:11,601 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[3]/div/span的文本为0
+2019-03-13 21:00:11,609 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:11,611 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:11,618 - 贷后自动化测试 - INFO - 获取定位xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:12,118 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@class="detailItem2"]/div/div[1]/div/div/div/div/div[4]
+2019-03-13 21:00:12,151 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span
+2019-03-13 21:00:12,163 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span
+2019-03-13 21:00:12,663 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span
+2019-03-13 21:00:12,696 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[1]/td[2]/div/span的文本为77
+2019-03-13 21:00:12,703 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span
+2019-03-13 21:00:12,714 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span
+2019-03-13 21:00:13,214 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span
+2019-03-13 21:00:13,243 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[2]/td[2]/div/span的文本为44
+2019-03-13 21:00:13,250 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span
+2019-03-13 21:00:13,262 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span
+2019-03-13 21:00:13,762 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span
+2019-03-13 21:00:13,790 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[3]/td[2]/div/span的文本为33
+2019-03-13 21:00:13,796 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span
+2019-03-13 21:00:13,809 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span
+2019-03-13 21:00:14,309 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span
+2019-03-13 21:00:14,338 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[4]/td[2]/div/span的文本为11
+2019-03-13 21:00:14,345 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span
+2019-03-13 21:00:14,357 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span
+2019-03-13 21:00:14,857 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span
+2019-03-13 21:00:14,884 - 贷后自动化测试 - INFO - 获取到定位元素xpath://*[@name = "tTableBefore"]/div/div[2]/table/tbody/tr[5]/td[2]/div/span的文本为55
+2019-03-13 21:00:14,915 - 贷后自动化测试 - INFO - 进入页面-客户卡管理
+2019-03-13 21:00:16,036 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 21:00:16,536 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 21:00:16,611 - 贷后自动化测试 - INFO - 获取定位name:tInputFilter
+2019-03-13 21:00:17,111 - 贷后自动化测试 - INFO - 正在查找元素name:tInputFilter
+2019-03-13 21:00:17,177 - 贷后自动化测试 - INFO - 获取下拉框定位元素银行卡主要用途还款
+2019-03-13 21:00:18,332 - 贷后自动化测试 - INFO - 点击定位元素name:tBtnFilter
+2019-03-13 21:00:18,332 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 21:00:18,342 - 贷后自动化测试 - INFO - 获取定位name:tBtnFilter
+2019-03-13 21:00:18,842 - 贷后自动化测试 - INFO - 正在查找元素name:tBtnFilter
+2019-03-13 21:00:18,892 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 21:00:18,894 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 21:00:18,911 - 贷后自动化测试 - INFO - 获取定位xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 21:00:19,411 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[@name="tTableCompany"]/div/div[2]/table/tbody/tr/td[16]/div/div/div[1]/i
+2019-03-13 21:00:24,575 - 贷后自动化测试 - INFO - 启动webdriver
+2019-03-13 21:00:31,082 - 贷后自动化测试 - INFO - 获取定位id:account
+2019-03-13 21:00:31,582 - 贷后自动化测试 - INFO - 正在查找元素id:account
+2019-03-13 21:00:31,651 - 贷后自动化测试 - INFO - 获取定位id:verification
+2019-03-13 21:00:32,151 - 贷后自动化测试 - INFO - 正在查找元素id:verification
+2019-03-13 21:00:32,201 - 贷后自动化测试 - INFO - 获取定位id:txtPhoneCertify
+2019-03-13 21:00:32,701 - 贷后自动化测试 - INFO - 正在查找元素id:txtPhoneCertify
+2019-03-13 21:00:32,752 - 贷后自动化测试 - INFO - 点击定位元素xpath://*[text()="登录"]
+2019-03-13 21:00:32,752 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 21:00:32,763 - 贷后自动化测试 - INFO - 获取定位xpath://*[text()="登录"]
+2019-03-13 21:00:33,263 - 贷后自动化测试 - INFO - 正在查找元素xpath://*[text()="登录"]
+2019-03-13 21:00:33,551 - 贷后自动化测试 - INFO - {"borrowerBaseInfos": [{"customerName": "\u682c\u6f7e\u87b1", "customerNo": "510104199001010940", "customerPropertiy": "1", "telephone": "18693080140", "reason": "", "relation": "", "addressProvinceCode": 620000, "addressCityCode": 620100, "addressDetail": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "1", "addressAreaCode": 510104}, {"customerName": "\u9a6c\u5f3a", "customerNo": "510104198601013833", "customerPropertiy": "1", "telephone": "17621032210", "reason": "0002300003", "relation": "0001700002", "addressProvinceCode": 460000, "addressCityCode": 460200, "addressDetail": "\u5171\u501f\u4eba\u5e38\u9a7b\u5730\u5740208", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}, {"customerName": "\u738b\u82b3\u82b3", "customerNo": "620101199002287243", "customerPropertiy": "1", "telephone": "17621032208", "reason": "0002300001", "relation": "0001700005", "addressProvinceCode": 610000, "addressCityCode": 610100, "addressDetail": "\u914d\u5076\u7684\u5e38\u9a7b\u5730\u5740\u8be6\u7ec6", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "customerType": "2", "addressAreaCode": 510104}], "contract": [{"remark": "", "extra": {"overduePrice": "", "customerName": "\u682c\u6f7e\u87b1", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "companyTelephone": "0011200003", "concessionCh": "\u8d30\u62fe\u8d30\u5143\u6574", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010102", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "33", "signDate": "2019-01-24", "proxyPriceCh": "\u8086\u62fe\u8086\u5143\u6574", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "proxyPrice": "44", "contractType": "123", "companyEmail": "0011700001", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "560", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "\u58f9\u62fe\u58f9\u5143\u6574", "documentNumber": "510104199001010940", "companyBankno": "0011600002", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "11", "agenPriceCh": "\u53c1\u62fe\u53c1\u5143\u6574", "companyAddress": "0011400001", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "22", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010102", "configContractId": "01c402a307c04987ae638a6a1198a2b7", "contractFileId": "038c7e806d2b4df78d877acec0cdae04", "contractName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx"}, {"remark": "", "extra": {"serviceAmountCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "month": "01", "companyTelephone": "0011200003", "concessionCh": "\u4f0d\u62fe\u4f0d\u5143\u6574", "advance_3_2": "3", "inputDept": "1571404b501940b385112b937ae8d988", "companyBankno": "0011600002", "proxyPrice": "", "contractType": "122", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "561", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_2": "1", "concession_1_1": "1", "advance_5_1": "5", "advance_5_2": "5", "concessions": "1-1|2-2|3-3|4-4|5-5|6", "concession_3_1": "3", "documentNumber": "510104199001010940", "advance_3_1": "3", "email": "power228@qq.com", "companyName": "0011100002", "serviceAmount": "55", "advance": "1-1|2-2|3-3|4-4|5-5|6", "agenPriceCh": "", "concession_3_2": "3", "s": "12|12|12|12|12|12", "concession_5_2": "5", "concession_5_1": "5", "signAddress": [110000, 110100, 110101], "concession_4_2": "4", "concession_4_1": "4", "customerName": "\u682c\u6f7e\u87b1", "advance_1_1": "1", "advance_1_2": "1", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "", "concession_6_1": "6", "cp": "12|12|12|12|12|12", "beforetime": "04:04", "advance_6_1": "6", "city": "\u5e02\u8f96\u533a", "advance_4_2": "4", "area": "\u4e1c\u57ce\u533a", "advance_4_1": "4", "serviceNumber": "YJ2105129920190124000010103", "companyBank": "0011500001", "agenPrice": "", "signDate": "2019-01-24", "concession_2_1": "2", "concession_2_2": "2", "proxyPriceCh": "", "loanFee": "", "contractAmount": "1000000", "concession_1": "", "advance_2_2": "2", "companyEmail": "0011700001", "advance_2_1": "2", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "telephone": "18693080140", "beforeDay": "", "s3": "12", "s2": "12", "s1": "12", "overduePrice": "12", "s6": "12", "s5": "12", "s4": "12", "cp1": "12", "cp2": "12", "cp3": "12", "cp4": "12", "cp5": "12", "cp6": "12", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "concession_1_ch": "", "bankno": "6214830283467990", "concession": "55", "contractName": "", "companyAddress": "0011400002", "contractAmountCh": "\u58f9\u4f70\u4e07\u5143\u6574", "applyId": "c273e2110590445998df4a5bd6d9915c"}, "contractNumber": "YJ2105129920190124000010103", "configContractId": "3b29254360d14dac8b410668e48ae18e", "contractFileId": "1bad80ac76f34278a7fd718f31e99474", "contractName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx"}, {"remark": "", "extra": {"overduePrice": "", "customerName": "\u682c\u6f7e\u87b1", "month": "01", "attachs": "\uff08\u89c1\u9644\u4ef6\u4e00\uff09", "loanFeeCh": "\u67d2\u62fe\u67d2\u5143\u6574", "companyTelephone": "", "concessionCh": "", "city": "\u5e02\u8f96\u533a", "area": "\u4e1c\u57ce\u533a", "serviceNumber": "YJ2105129920190124000010104", "companyBank": "0011500002", "inputDept": "1571404b501940b385112b937ae8d988", "agenPrice": "", "signDate": "2019-01-24", "proxyPriceCh": "", "loanFee": "77", "contractAmount": "", "concession_1": "", "proxyPrice": "", "contractType": "124", "companyEmail": "", "day": "24", "bank": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "contractId": "562", "attachlists": "\u9644\u4ef6\u4e00\uff1a", "signPlace": "{\u5317\u4eac\u5e02}{\u5e02\u8f96\u533a}{\u4e1c\u57ce\u533a}", "telephone": "18693080140", "beforeDay": "", "year": "2019", "homeaddr": "\u5927\u51c9\u5c71\u8def\u5854\u5b50\u5c71\u516c\u56ed", "concession_1_ch": "", "serviceAmountCh": "", "documentNumber": "510104199001010940", "companyBankno": "0011600001", "email": "power228@qq.com", "province": "\u5317\u4eac\u5e02", "inputUser": "18a65f06d323464baab9a4cfbde3a0cf", "companyName": "0011100001", "bankno": "6214830283467990", "contractName": "", "serviceAmount": "", "agenPriceCh": "", "companyAddress": "0011400002", "contractAmountCh": "", "applyId": "c273e2110590445998df4a5bd6d9915c", "concession": "", "signAddress": [110000, 110100, 110101]}, "contractNumber": "YJ2105129920190124000010104", "configContractId": "ba2f537fc8f04e04bdee90f820be0ed8", "contractFileId": "85fc3d7d985e44df91114edc93c0b536", "contractName": "4\u670d\u52a1\u534f\u8bae.docx"}], "capitalInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "loanInfo": {"deptId": "33f1f497727b402c95607439f522ef68", "funderProductConfig": "1", "repayMethodText": "\u7b49\u989d\u672c\u606f", "rateText": 0.086, "customerName": "\u682c\u6f7e\u87b1", "serviceLimit": 12, "compreRateText": 12.0, "loanLimit": 12, "contractNumber": "YJJR028201901240000101", "loanDate": 1550062833000, "platformNumber": "0009800021", "transferDate": "", "customerAll": "\u9a6c\u5f3a", "businessNumber": "it52cgjcwkpqphnxxunrzlu3yvrieesb", "salerId": "afa666767df24184982a2f84c4afde54", "isSpecial": "", "funder": "0009800003", "fileNumber": "2019031321002", "customerNo": "510104199001010940", "isCombo": 0, "productId": "0001000001"}, "borrowerLoanInfos": [{"amountArrange": 0.0, "amount": 30, "compreRates": [], "comboDetail": "", "serviceLimit": 12, "loanLimit": 12, "repayMethod": "0001100003", "type": 1, "rate": 0.086, "compreRate": 12.0}], "jointerId": "013a2f5c1e1f4e0eaba38d0f7d0a9318", "attachInfo": [{"available": 1, "sort": 0, "attachType": "docx", "attachName": "2-1\uff08\u65b0\u5b50\u516c\u53f8\u7b7e\uff09\u4fe1\u606f\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u878d\u8d44\u64ae\u5408+\u4ee3\u529e\u516c\u8bc1\u62b5\u62bc+\u4ee3\u6536\u5c45\u95f4\uff09\uff08\u903e\u671f\u4e0d\u6298\u8ba9\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "123", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:07:28", "thumbUrl": "", "url": "038c7e806d2b4df78d877acec0cdae04", "classifyId": 123, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374330, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "3-1\uff08\u5b81\u6ce2\u7b7e\uff09\uff08\u63d0\u6e05\u5b9a\u989d\u8ba1\u4ef7+\u903e\u671f\u4e0d\u6298\u8ba9\uff09\u7ba1\u7406\u54a8\u8be2\u670d\u52a1\u534f\u8bae\uff08\u54a8\u8be2\u670d\u52a1+\u8d37\u540e\u7ba1\u7406\u670d\u52a1\uff09.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "122", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:09", "thumbUrl": "", "url": "1bad80ac76f34278a7fd718f31e99474", "classifyId": 122, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374331, "inputFlow": ""}, {"available": 1, "sort": 0, "attachType": "docx", "attachName": "4\u670d\u52a1\u534f\u8bae.docx", "userId": "18a65f06d323464baab9a4cfbde3a0cf", "classifyIdString": "124", "tag": "upload1", "extraId": "dc78c05ab84e4c12b5d3aca3da1cc7d1", "createTime": "2019-01-24 20:08:28", "thumbUrl": "", "url": "85fc3d7d985e44df91114edc93c0b536", "classifyId": 124, "applyId": "c273e2110590445998df4a5bd6d9915c", "attachmentId": 374332, "inputFlow": ""}], "bankcardInfos": [{"code": "308", "tel": "18693080140", "number": "6214830283467990", "master": "\u682c\u6f7e\u87b1", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "1"}, {"code": "308", "tel": "17621032205", "number": "6214830283467990", "master": "\u682c\u6f7e\u87b1", "branch": "\u4eba\u6c11\u5e7f\u573a\u652f\u884c", "type": "2"}], "guarantyInfos": [{"fastSellPrice": "", "mortgageStatus": 2, "primaryAssessFileId": "", "carMileage": 0.0, "residentDetail": "\u5c45\u4f4f\u4eba\u5458---------------\u521d\u8bc4\u5f55\u5165", "carNumber": "", "source": "0006900001", "isPeripheralBusiness": "", "decorateStatus": "0007200001", "useage": "0006800001", "certificateNumber": "chanquan001", "agencyTele": "", "fastSellTime": "", "brand": "", "SaddressDetail": "\u5927\u4e1a\u8def205\u53f7", "landLife": "0007000003", "maintainStatus": "0007800001", "faceStreet": "0008000001", "propertyType": "", "addressProvinceCode": 510000, "landCertificateNumber": "", "certificateName": "", "latestAssessment": "", "addressCityCode": 510100, "sharePercent": [{"name": "\u8c03\u8bd5\u4e00"}, {"name": "\u738b\u82b3\u82b3"}], "buyDate": "2008-08-08 00:00:00", "leftUseTime": "", "hasGarden": "", "assessmentReportId": "", "house": "\u697c\u76d8\u540d\u79f0", "assessPrice": "", "displacement": "", "accessTotle": 200.0, "totleFloor": "", "shareStatus": "0007500002", "trafficConvenience": "0014100001", "floor": 33, "repeatAssessFileId": "", "addressSummary": "\u56db\u5ddd\u7701-\u6210\u90fd\u5e02-\u9526\u6c5f\u533a", "hasBalcony": "", "classify": "0006100001", "notarizationFileId": "", "degree": "0007900001", "nature": "0007600001", "foundYears": "2008", "realEstateCertificateNumber": "", "currentUsage": "0014000001", "acreage": 100.0, "mortgageFileId": "", "assessDate": "", "carType": "", "carColor": "", "buildingStructure": "0014300001", "ventilationStatus": "0007700001", "addressAreaCode": 510104}]}
+2019-03-13 21:00:33,555 - 贷后自动化测试 - INFO - 进件请求结果:成功
+2019-03-13 21:00:33,555 - 贷后自动化测试 - INFO - 获取栬潾螱的订单ID

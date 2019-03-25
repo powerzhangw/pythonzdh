@@ -5,7 +5,7 @@ import os
 import json
 
 # 启动浏览器
-path = "/Users/zjy/Documents/imooc/code/python_ui/chromedriver"
+path= r'D:\atest\pythonzdh\lib\chromedriver.exe'
 driver = webdriver.Chrome(path)
 driver.maximize_window()
 

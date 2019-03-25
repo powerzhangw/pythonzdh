@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
-
-driver = webdriver.Chrome("/Users/zjy/Documents/imooc/code/python_ui/chromedriver")
+path= r'D:\atest\pythonzdh\lib\chromedriver.exe'
+driver = webdriver.Chrome(path)
 driver.get("https://passport.jd.com/new/login.aspx")
 
 # 强制等待
