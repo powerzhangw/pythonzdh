@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Author  : powerzhang
 import unittest
 from lib.browser import browser
 from selenium.webdriver.common.by import By
-
 browser = browser('chrome')
 browser.get('http://postlend.demo.ejie365.cn/#/home')
 browser.max_window()

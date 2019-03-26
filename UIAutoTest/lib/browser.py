@@ -422,7 +422,7 @@ if __name__ == '__main__':
     from selenium.webdriver.common.by import By
 
     dr = browser()
-    dr.get('http://sahitest.com/demo/selectTest.htm')
+    dr.get('XXXXX')
     ele = dr.find_element((By.ID, 's1Id'))
     dr.select(ele, 2)
     dr.select(ele, 'o1')
