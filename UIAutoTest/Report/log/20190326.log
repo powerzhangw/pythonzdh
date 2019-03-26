@@ -1,0 +1,18 @@
+2019-03-26 16:19:09,299	-	INFO	-	chrome成功启动
+2019-03-26 16:19:21,700	-	INFO	-	('link text', '新闻')单击成功
+2019-03-26 16:24:30,457	-	INFO	-	chrome成功启动
+2019-03-26 16:24:50,523	-	INFO	-	('link text', '新闻')单击成功
+2019-03-26 16:27:09,073	-	INFO	-	chrome成功启动
+2019-03-26 16:27:24,057	-	INFO	-	('link text', '新闻')单击成功
+2019-03-26 16:52:30,758	-	INFO	-	chrome成功启动
+2019-03-26 16:53:11,559	-	INFO	-	chrome成功启动
+2019-03-26 16:57:41,526	-	INFO	-	chrome成功启动
+2019-03-26 16:57:55,616	-	INFO	-	('id', 'account')输入EJIE成功
+2019-03-26 16:57:55,686	-	INFO	-	('id', 'verification')输入EJIE成功
+2019-03-26 16:57:55,750	-	INFO	-	('xpath', '/html/body/div/div/div[2]/div/div[2]/div[7]')单击成功
+2019-03-26 16:58:46,153	-	INFO	-	chrome成功启动
+2019-03-26 16:58:58,062	-	INFO	-	('id', 'account')输入17621032204成功
+2019-03-26 16:58:58,132	-	INFO	-	('id', 'verification')输入EJIE成功
+2019-03-26 16:58:58,196	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
+2019-03-26 16:58:58,288	-	INFO	-	('xpath', '/html/body/div/div/div[2]/div/div[2]/div[7]')单击成功
+2019-03-26 17:25:26,710	-	INFO	-	chrome成功启动
