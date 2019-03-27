@@ -7,10 +7,9 @@ import configinfo as cf
 
 class Log(object):
     def __init__(self):
-        self.logFileName = os.path.join(cf.log_path, '{0}.log'.format(time.strftime('%Y%m%d')))
+        self.logFileName = os.path.join(cf.log_path, '{0}.log'.format(time.strftime('%Y%m%d%H')))
 
     def __logconsole(self, level, message):
-        title = u'贷后自动化测试'
         # 创建一个logger
         logger = logging.getLogger()
         # 设置logger级别

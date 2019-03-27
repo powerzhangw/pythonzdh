@@ -7,8 +7,6 @@ from common import public_data
 from uitls import get_data
 import time
 import sys #
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 
 class Test_define(unittest.TestCase):

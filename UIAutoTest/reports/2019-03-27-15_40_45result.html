@@ -362,9 +362,9 @@ function hide_img(obj){
 </div>
 <div class='heading'>
 <h1>自动化测试报告,测试结果如下：</h1>
-<p class='attribute'><strong>开始时间:</strong> 2019-03-26 21:50:37</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:00.007979</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj errorCase">Error</span>2</p>
+<p class='attribute'><strong>开始时间:</strong> 2019-03-27 15:40:45</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:09.373000</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>1</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -397,124 +397,40 @@ function hide_img(obj){
     <th>错误截图</th>
 </tr>
 
-<tr class='errorClass'>
-    <td>unittest.loader._FailedTest</td>
-    <td>2</td>
+<tr class='passClass'>
+    <td>test_startend02.Test_01</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',2)">详情</a></td>
+    <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td ><div class='testcase'>test</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td ><div class='testcase'>testfirst001</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <span class='status errorCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        错误</a></span>
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a></span>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: ImportError: Failed to import test module: test
-Traceback (most recent call last):
-  File "D:\Python37\lib\unittest\loader.py", line 434, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "D:\Python37\lib\unittest\loader.py", line 375, in _get_module_from_name
-    __import__(name)
-  File "D:\atest\pythonzdh\UIAutoTest\test_case\test.py", line 8, in &lt;module&gt;
-    browser.input(By.ID,'')
-  File "d:\atest\pythonzdh\UIAutoTest\lib\browser.py", line 201, in input
-    if self.find_element(located).is_displayed():
-  File "d:\atest\pythonzdh\UIAutoTest\lib\browser.py", line 185, in find_element
-    self.wait_element(locator, 3)
-  File "d:\atest\pythonzdh\UIAutoTest\lib\browser.py", line 157, in wait_element
-    element = WebDriverWait(self.driver, seconds, 1).until(EC.presence_of_element_located(located))
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
-    value = method(self._driver)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
-    return _find_element(driver, self.locator)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
-    raise e
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
-    return driver.find_element(*by)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: Unsupported locator strategy: i
-  (Session info: chrome=73.0.3683.86)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64)
-
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-    <td>无截图</td>
-</tr>
-
-<tr id='ft1.2' class='none'>
-    <td ><div class='testcase'>test: _retry:1</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <span class='status errorCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        错误</a></span>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: ImportError: Failed to import test module: test
-Traceback (most recent call last):
-  File "D:\Python37\lib\unittest\loader.py", line 434, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "D:\Python37\lib\unittest\loader.py", line 375, in _get_module_from_name
-    __import__(name)
-  File "D:\atest\pythonzdh\UIAutoTest\test_case\test.py", line 8, in &lt;module&gt;
-    browser.input(By.ID,'')
-  File "d:\atest\pythonzdh\UIAutoTest\lib\browser.py", line 201, in input
-    if self.find_element(located).is_displayed():
-  File "d:\atest\pythonzdh\UIAutoTest\lib\browser.py", line 185, in find_element
-    self.wait_element(locator, 3)
-  File "d:\atest\pythonzdh\UIAutoTest\lib\browser.py", line 157, in wait_element
-    element = WebDriverWait(self.driver, seconds, 1).until(EC.presence_of_element_located(located))
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
-    value = method(self._driver)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
-    return _find_element(driver, self.locator)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
-    raise e
-  File "D:\Python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
-    return driver.find_element(*by)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: Unsupported locator strategy: i
-  (Session info: chrome=73.0.3683.86)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64)
-
-
+pt1.1: 2019-03-27 15:40:47,710	-	INFO	-	chrome成功启动
+2019-03-27 15:40:54,435	-	INFO	-	('id', 'account')输入17621032204成功
+2019-03-27 15:40:54,572	-	INFO	-	('id', 'verification')输入EJIE成功
+2019-03-27 15:40:54,635	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
+2019-03-27 15:40:54,713	-	INFO	-	('xpath', '/html/body/div/div/div[2]/div/div[2]/div[7]')单击成功
+start!
+这是02下的运例二条case
+end!
 
 
         </pre>
@@ -527,17 +443,17 @@ selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 
 
 <tr id='total_row'>
     <th>统计</th>
-    <th>2</th>
+    <th>1</th>
+    <th>1</th>
     <th>0</th>
     <th>0</th>
-    <th>2</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
 </tr>
 </table>
 <script>
     showCase(1);
-    drawCircle(0, 0, 2);
+    drawCircle(1, 0, 0);
 </script>
 
 <div id='ending'>&nbsp;</div>
