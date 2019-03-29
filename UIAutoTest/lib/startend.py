@@ -14,6 +14,7 @@ class PostlendTest(unittest.TestCase):
             self.browser.input((By.ID,"verification"),'EJIE')
             self.browser.input((By.ID,"txtPhoneCertify"),'EJIE')
             self.browser.click((By.XPATH,"/html/body/div/div/div[2]/div/div[2]/div[7]"))
+
             print("start!")
 
         # def testfirst002(self):

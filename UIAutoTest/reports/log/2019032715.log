@@ -1,5 +1,0 @@
-2019-03-27 15:40:47,710	-	INFO	-	chrome成功启动
-2019-03-27 15:40:54,435	-	INFO	-	('id', 'account')输入17621032204成功
-2019-03-27 15:40:54,572	-	INFO	-	('id', 'verification')输入EJIE成功
-2019-03-27 15:40:54,635	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
-2019-03-27 15:40:54,713	-	INFO	-	('xpath', '/html/body/div/div/div[2]/div/div[2]/div[7]')单击成功
