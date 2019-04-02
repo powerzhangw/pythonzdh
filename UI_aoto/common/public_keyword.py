@@ -4,10 +4,10 @@ from uitls import get_element
 from uitls import log
 from selenium.webdriver.common.keys import Keys
 import sys,time
-reload(sys)
-sys.setdefaultencoding('utf8')
-logs = log.log_message()
 
+# reload(sys)
+# sys.setdefaultencoding('utf8')
+logs = log.log_message()
 #公用关键字
 #获取到翻页信息，截取当前有多少条数据，返回一个数字；
 def page_date_num(str_number):
@@ -264,7 +264,7 @@ def deduction_money(self,ID,claim_money,zifang,hklx=None,czuo=u'划扣'):
             hkjg = self.driver.get_text(self.browser, 'xpath','//*[@class="ivu-notice"]/div/div[1]/div/div[2]')
             time.sleep(7)
             return {u'应还总额': yhze_money, u'预划扣额': yhkje_money, u'已还款额': yhke_money, u'划扣结果': hkjg}
-    except Exception, e:
+    except Exception as e:
         logs.error_log(e)
 
 #划扣列表记录
@@ -314,7 +314,7 @@ def deduction_recordlist(self ,ID ,text=u'易捷' ,hklx=u'正常待还'):
             else:
                 aaa = u'订单不存在'
                 return aaa
-    except Exception, e:
+    except Exception as e:
         logs.error_log(e)
 
 #划扣历史
@@ -364,7 +364,7 @@ def deduction_recordhistroy(self ,ID ,text = u'易捷' ,hklx=u'正常待还'):
             else:
                 text = u'订单不存在'
                 return text
-    except Exception, e:
+    except Exception as e:
         logs.error_log(e)
 
 #清贷
@@ -378,6 +378,7 @@ def clearing_loan(self,ID):
         self.driver.clic(self.browser,'xpath','//*[@name="tBtnFilter"]')
         self.driver.clic(self.browser,'xpath','//*[@name="tTableLoanList"]/div/div[2]/table/tbody/tr/td[12]/div/div/div[1]/i')
         self.driver.clic(self.browser,'xpath','//*[@name="tTableLoanList"]/div/div[2]/table/tbody/tr/td[12]/div/div/div[2]/ul/li[3]/a')
+
         self.driver.clic(self.browser,'xpath','//*[@placeholder="清贷时间"]')
         self.driver.element(self.browser,'xpath','//*[@placeholder="清贷时间"]').send_keys(Keys.ENTER)
         self.driver.clic(self.browser,'xpath','//*[@name="tBtnLoanListClearingConfirm"]')
@@ -420,7 +421,7 @@ def clearing_loan(self,ID):
             return dict
         else:
             logs.error_log("进入试算预览失败")
-    except Exception,e:
+    except Exception as e:
         logs.error_log(e)
 
 #进行对比，输入对比参数，若失败截图
@@ -530,5 +531,5 @@ def check_elements(self,driver,method,location):
         else:
             raise NameError("Please enter the  elements,'id','name','class','link_text','xpath','css','tag'.")
         return element
-    except Exception, e:
+    except Exception as e:
         logs.error_log(e)

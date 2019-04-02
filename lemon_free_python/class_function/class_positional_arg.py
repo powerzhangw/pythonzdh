@@ -33,7 +33,7 @@ def add(m,n,k):
     # print("函数内部打印求和结果是：",count)
     return count
 
-result=add(0,101,2)
+result=add(m=0,n=101,k=2)
 print("结果值是：",result)
 
 #三步函数法

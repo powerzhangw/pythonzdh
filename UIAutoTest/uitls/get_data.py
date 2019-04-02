@@ -7,10 +7,11 @@ import requests
 import json
 
 logs = lib.logUntil.Log()
-def get_businessNumber():
+def get_bus():
     random_string = ''.join(random.sample(string.ascii_letters + string.digits, 32))
     my_string = random_string.lower()
     return my_string
+get_bus()
 
 def config_json():
     c_json ={
@@ -62,10 +63,14 @@ def get_datas(repayMethodText,customerName,deptID,funder,productId,amount,get_co
         msg = response.json()['msg']
         logs.info_log(data)
         logs.info_log(u'进件请求结果' + ':' + msg)
+        print("aaaaa")
         return msg
     except Exception as e:
         logs.error_log(e)
 
+cc = get_datas(u'等额本息','调试一','33f1f497727b402c95607439f522ef68','0009800003','0012600001',"100",'2019032100005','213f18b0dca4486bbcced92e4c1f725a','2019-03-22')
+
+print(cc)
 #跑批接口
 def batch_task(id):
     try:
@@ -79,5 +84,3 @@ def batch_task(id):
         return msg
     except Exception as e:
         logs.error_log(e)
-
-get_data = get_datas

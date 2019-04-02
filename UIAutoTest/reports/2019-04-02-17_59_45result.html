@@ -362,9 +362,9 @@ function hide_img(obj){
 </div>
 <div class='heading'>
 <h1>自动化测试报告,测试结果如下：</h1>
-<p class='attribute'><strong>开始时间:</strong> 2019-03-28 11:50:55</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:18.230000</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>1</p>
+<p class='attribute'><strong>开始时间:</strong> 2019-04-02 17:59:46</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:34.028000</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj errorCase">Error</span>1</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -397,40 +397,79 @@ function hide_img(obj){
     <th>错误截图</th>
 </tr>
 
-<tr class='passClass'>
-    <td>test_startend02.Test_01</td>
-    <td>1</td>
+<tr class='errorClass'>
+    <td>test_clearing.TestClearing</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td ><div class='testcase'>testfirst001</div></td>
+<tr id='ft1.1' class='none'>
+    <td ><div class='testcase'>test001</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <span class='status passCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        通过</a></span>
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a></span>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: 2019-03-28 11:51:09,303	-	INFO	-	chrome成功启动
-2019-03-28 11:51:12,921	-	INFO	-	('id', 'account')输入17621032204成功
-2019-03-28 11:51:13,015	-	INFO	-	('id', 'verification')输入EJIE成功
-2019-03-28 11:51:13,079	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
-2019-03-28 11:51:13,230	-	INFO	-	('xpath', '/html/body/div/div/div[2]/div/div[2]/div[7]')单击成功
-start!
-这是02下的运例二条case
-end!
+ft1.1: 2019-04-02 17:59:49,832	-	INFO	-	chrome成功启动
+2019-04-02 17:59:55,586	-	INFO	-	('id', 'account')输入17621032204成功
+2019-04-02 17:59:55,666	-	INFO	-	('id', 'verification')输入EJIE成功
+2019-04-02 17:59:55,733	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
+2019-04-02 17:59:55,799	-	INFO	-	('xpath', '//*[text()="登录"]')单击成功
+2019-04-02 17:59:55,800	-	INFO	-	登录成功，开始测试
+2019-04-02 17:59:56,932	-	INFO	-	('id', 'tTopMenucustomer')单击成功
+2019-04-02 17:59:57,013	-	INFO	-	('xpath', '//*[@id="tSideMenuloanList"]/span')单击成功
+2019-04-02 17:59:58,411	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/form/div[1]/div/div/input')输入2019040217594成功
+2019-04-02 17:59:58,513	-	INFO	-	('xpath', '//*[text()="筛选"]')单击成功
+2019-04-02 17:59:59,591	-	INFO	-	('xpath', '//*[@class="ivu-icon ivu-icon-edit"]')单击成功
+2019-04-02 18:00:00,722	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[3]/div/div[2]/table/tbody/tr/td[12]/div/div/div[2]/ul/li[3]/a')单击成功
+2019-04-02 18:00:01,886	-	INFO	-	('xpath', '//*[@placeholder="清贷时间"]')单击成功
+2019-04-02 18:00:01,965	-	INFO	-	('xpath', '//*[@placeholder="清贷时间"]')单击成功
+2019-04-02 18:00:02,044	-	INFO	-	('xpath', '//*[@name="tBtnLoanListClearingConfirm"]')单击成功
+2019-04-02 18:00:06,061	-	INFO	-	向下滚动5距离的浏览器滚动条
+2019-04-02 18:00:06,204	-	INFO	-	('name', 'tBtnLoanListTrialModalConfirm')单击成功
+2019-04-02 18:00:07,336	-	INFO	-	('id', 'tTopMenurepaymentRemoveLoan')单击成功
+2019-04-02 18:00:07,414	-	INFO	-	('id', 'tSideMenuremoveLoan')单击成功
+2019-04-02 18:00:07,493	-	INFO	-	('id', 'tSideMenuremoveLoanremoveLoan-list')单击成功
+2019-04-02 18:00:08,712	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/form/div[1]/div/div/input')输入2019040217594成功
+2019-04-02 18:00:08,766	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/form/div[1]/div/div/input')单击成功
+2019-04-02 18:00:10,936	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/table/tbody/tr/td[13]/div/div/a[1]')单击成功
+2019-04-02 18:00:13,108	-	INFO	-	('xpath', '/html/body/div[7]/div[2]/div/div/div[2]/div/form/div[3]/div/div[1]/div[1]/div/span')单击成功
+2019-04-02 18:00:13,210	-	INFO	-	('xpath', '/html/body/div[7]/div[2]/div/div/div[2]/div/form/div[3]/div/div/div[2]/ul[2]/li[2]')单击成功
+2019-04-02 18:00:13,316	-	INFO	-	('xpath', '/html/body/div[7]/div[2]/div/div/div[2]/div/form/div[7]/div/div[1]/input')输入244143成功
+2019-04-02 18:00:13,384	-	INFO	-	('xpath', '/html/body/div[7]/div[2]/div/div/div[2]/div/form/div[7]/label')单击成功
+2019-04-02 18:00:15,517	-	INFO	-	('xpath', '/html/body/div[7]/div[2]/div/div/div[2]/div/form/div[8]/div/div/span')单击成功
+2019-04-02 18:00:15,707	-	INFO	-	('xpath', '/html/body/div[8]/div[2]/div/div/div[2]/div[1]/input')输入张巍巍成功
+2019-04-02 18:00:15,783	-	INFO	-	('xpath', '/html/body/div[8]/div[2]/div/div/div[2]/div[1]/input')单击成功
+Traceback (most recent call last):
+  File "D:\atest\pythonzdh\UIAutoTest\test_case\test_clearing.py", line 59, in test001
+    self.browser.click((By.XPATH,'/html/body/div[8]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div'))
+  File "D:/atest/pythonzdh/UIAutoTest\uitls\browser.py", line 220, in click
+    self.find_element(located).click()
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element &lt;div class="ej-rc-modal-item"&gt;...&lt;/div&gt; is not clickable at point (807, 259). Other element would receive the click: &lt;div class="ivu-spin ivu-spin-large ivu-spin-fix"&gt;...&lt;/div&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64)
+
 
 
         </pre>
@@ -444,16 +483,16 @@ end!
 <tr id='total_row'>
     <th>统计</th>
     <th>1</th>
+    <th>0</th>
+    <th>0</th>
     <th>1</th>
-    <th>0</th>
-    <th>0</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
 </tr>
 </table>
 <script>
     showCase(1);
-    drawCircle(1, 0, 0);
+    drawCircle(0, 0, 1);
 </script>
 
 <div id='ending'>&nbsp;</div>

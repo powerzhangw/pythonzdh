@@ -362,9 +362,9 @@ function hide_img(obj){
 </div>
 <div class='heading'>
 <h1>自动化测试报告,测试结果如下：</h1>
-<p class='attribute'><strong>开始时间:</strong> 2019-03-27 15:40:45</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:09.373000</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>1</p>
+<p class='attribute'><strong>开始时间:</strong> 2019-04-02 17:43:18</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:00.001000</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj errorCase">Error</span>1</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -397,40 +397,43 @@ function hide_img(obj){
     <th>错误截图</th>
 </tr>
 
-<tr class='passClass'>
-    <td>test_startend02.Test_01</td>
-    <td>1</td>
+<tr class='errorClass'>
+    <td>unittest.loader._FailedTest</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td ><div class='testcase'>testfirst001</div></td>
+<tr id='ft1.1' class='none'>
+    <td ><div class='testcase'>test_clearing</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <span class='status passCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        通过</a></span>
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a></span>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: 2019-03-27 15:40:47,710	-	INFO	-	chrome成功启动
-2019-03-27 15:40:54,435	-	INFO	-	('id', 'account')输入17621032204成功
-2019-03-27 15:40:54,572	-	INFO	-	('id', 'verification')输入EJIE成功
-2019-03-27 15:40:54,635	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
-2019-03-27 15:40:54,713	-	INFO	-	('xpath', '/html/body/div/div/div[2]/div/div[2]/div[7]')单击成功
-start!
-这是02下的运例二条case
-end!
+ft1.1: ImportError: Failed to import test module: test_clearing
+Traceback (most recent call last):
+  File "D:\python37\lib\unittest\loader.py", line 434, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\python37\lib\unittest\loader.py", line 375, in _get_module_from_name
+    __import__(name)
+  File "D:\atest\pythonzdh\UIAutoTest\test_case\test_clearing.py", line 52
+    self.browser.input((By.XPATH,'/html/body/div[7]/div[2]/div/div/div[2]/div/form/div[7]/div/div[1]/input'),'244143')
+       ^
+SyntaxError: invalid syntax
+
 
 
         </pre>
@@ -444,16 +447,16 @@ end!
 <tr id='total_row'>
     <th>统计</th>
     <th>1</th>
+    <th>0</th>
+    <th>0</th>
     <th>1</th>
-    <th>0</th>
-    <th>0</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
 </tr>
 </table>
 <script>
     showCase(1);
-    drawCircle(1, 0, 0);
+    drawCircle(0, 0, 1);
 </script>
 
 <div id='ending'>&nbsp;</div>

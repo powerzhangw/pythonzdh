@@ -21,7 +21,6 @@ discover = unittest.defaultTestLoader.discover(case_path,
 
 fp = open(report_abspath, "wb")
 runner = HTMLTestRunner(stream=fp,
-                        retry=1,
                         verbosity=2,
                         title=u'自动化测试报告,测试结果如下：',
                         description=u'用例执行情况：')

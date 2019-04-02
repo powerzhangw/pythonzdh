@@ -362,9 +362,9 @@ function hide_img(obj){
 </div>
 <div class='heading'>
 <h1>自动化测试报告,测试结果如下：</h1>
-<p class='attribute'><strong>开始时间:</strong> 2019-03-29 17:33:54</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:18.468000</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj errorCase">Error</span>2</p>
+<p class='attribute'><strong>开始时间:</strong> 2019-04-02 17:18:16</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:23.696000</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj errorCase">Error</span>1</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -398,17 +398,17 @@ function hide_img(obj){
 </tr>
 
 <tr class='errorClass'>
-    <td>test_startend02.Test_01</td>
-    <td>2</td>
+    <td>test_clearing.TestClearing</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',2)">详情</a></td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
 <tr id='ft1.1' class='none'>
-    <td ><div class='testcase'>testfirst001</div></td>
+    <td ><div class='testcase'>test001</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -423,48 +423,40 @@ function hide_img(obj){
         </div>
         <pre>
         
-ft1.1: 2019-03-29 17:33:57,144	-	INFO	-	chrome成功启动
-2019-03-29 17:34:02,894	-	INFO	-	('id', 'account')输入17621032204成功
-2019-03-29 17:34:02,955	-	INFO	-	('id', 'verification')输入EJIE成功
-2019-03-29 17:34:03,013	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
+ft1.1: 2019-04-02 17:18:18,454	-	INFO	-	chrome成功启动
+2019-04-02 17:18:23,322	-	INFO	-	('id', 'account')输入17621032204成功
+2019-04-02 17:18:23,416	-	INFO	-	('id', 'verification')输入EJIE成功
+2019-04-02 17:18:23,479	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
+2019-04-02 17:18:23,544	-	INFO	-	('xpath', '//*[text()="登录"]')单击成功
+2019-04-02 17:18:23,545	-	INFO	-	登录成功，开始测试
+2019-04-02 17:18:24,663	-	INFO	-	('id', 'tTopMenucustomer')单击成功
+2019-04-02 17:18:24,738	-	INFO	-	('xpath', '//*[@id="tSideMenuloanList"]/span')单击成功
+2019-04-02 17:18:25,950	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/form/div[1]/div/div/input')输入2019040217181成功
+2019-04-02 17:18:26,048	-	INFO	-	('xpath', '//*[text()="筛选"]')单击成功
+2019-04-02 17:18:27,143	-	INFO	-	('xpath', '//*[@class="ivu-icon ivu-icon-edit"]')单击成功
+2019-04-02 17:18:28,255	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[3]/div/div[2]/table/tbody/tr/td[12]/div/div/div[2]/ul/li[3]/a')单击成功
+2019-04-02 17:18:29,372	-	INFO	-	('xpath', '//*[@placeholder="清贷时间"]')单击成功
+2019-04-02 17:18:29,443	-	INFO	-	('xpath', '//*[@placeholder="清贷时间"]')单击成功
+2019-04-02 17:18:29,544	-	INFO	-	('xpath', '//*[@name="tBtnLoanListClearingConfirm"]')单击成功
+2019-04-02 17:18:33,560	-	INFO	-	向下滚动5距离的浏览器滚动条
+2019-04-02 17:18:33,681	-	INFO	-	('name', 'tBtnLoanListTrialModalConfirm')单击成功
 Traceback (most recent call last):
-  File "D:\atest\pythonzdh\UIAutoTest\uitls\startend.py", line 18, in setUp
-    self.browser.click(By.CLASS_NAME,"button")
-TypeError: click() takes 2 positional arguments but 3 were given
+  File "D:\atest\pythonzdh\UIAutoTest\test_case\test_clearing.py", line 34, in test001
+    self.browser.click((By.ID,'tTopMenurepaymentRemoveLoan'))
+  File "D:/atest/pythonzdh/UIAutoTest\uitls\browser.py", line 220, in click
+    self.find_element(located).click()
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element &lt;li name="repaymentRemoveLoan" id="tTopMenurepaymentRemoveLoan" class="fl"&gt;...&lt;/li&gt; is not clickable at point (554, 33). Other element would receive the click: &lt;td rowspan="3"&gt;...&lt;/td&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64)
 
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-    <td>无截图</td>
-</tr>
-
-<tr id='ft1.2' class='none'>
-    <td ><div class='testcase'>testfirst001: _retry:1</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <span class='status errorCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        错误</a></span>
-
-    <div id='div_ft1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.2: 2019-03-29 17:34:05,334	-	INFO	-	chrome成功启动
-2019-03-29 17:34:12,911	-	INFO	-	('id', 'account')输入17621032204成功
-2019-03-29 17:34:12,969	-	INFO	-	('id', 'verification')输入EJIE成功
-2019-03-29 17:34:13,028	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
-Traceback (most recent call last):
-  File "D:\atest\pythonzdh\UIAutoTest\uitls\startend.py", line 18, in setUp
-    self.browser.click(By.CLASS_NAME,"button")
-TypeError: click() takes 2 positional arguments but 3 were given
 
 
         </pre>
@@ -477,17 +469,17 @@ TypeError: click() takes 2 positional arguments but 3 were given
 
 <tr id='total_row'>
     <th>统计</th>
-    <th>2</th>
+    <th>1</th>
     <th>0</th>
     <th>0</th>
-    <th>2</th>
+    <th>1</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
 </tr>
 </table>
 <script>
     showCase(1);
-    drawCircle(0, 0, 2);
+    drawCircle(0, 0, 1);
 </script>
 
 <div id='ending'>&nbsp;</div>

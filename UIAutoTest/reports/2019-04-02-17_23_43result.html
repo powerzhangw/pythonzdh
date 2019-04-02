@@ -362,9 +362,9 @@ function hide_img(obj){
 </div>
 <div class='heading'>
 <h1>自动化测试报告,测试结果如下：</h1>
-<p class='attribute'><strong>开始时间:</strong> 2019-03-29 17:34:53</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:07.638000</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>1</p>
+<p class='attribute'><strong>开始时间:</strong> 2019-04-02 17:23:44</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:30.599000</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj errorCase">Error</span>1</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -397,41 +397,77 @@ function hide_img(obj){
     <th>错误截图</th>
 </tr>
 
-<tr class='passClass'>
-    <td>test_startend02.Test_01</td>
-    <td>1</td>
+<tr class='errorClass'>
+    <td>test_clearing.TestClearing</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td ><div class='testcase'>testfirst001</div></td>
+<tr id='ft1.1' class='none'>
+    <td ><div class='testcase'>test001</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <span class='status passCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        通过</a></span>
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a></span>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: 2019-03-29 17:34:55,631	-	INFO	-	chrome成功启动
-2019-03-29 17:35:00,847	-	INFO	-	('id', 'account')输入17621032204成功
-2019-03-29 17:35:00,927	-	INFO	-	('id', 'verification')输入EJIE成功
-2019-03-29 17:35:00,995	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
-2019-03-29 17:35:01,059	-	INFO	-	('xpath', '/html/body/div/div/div[2]/div/div[2]/div[7]')单击成功
-2019-03-29 17:35:01,060	-	INFO	-	登录成功，开始测试
-start!
-这是02下的运例二条case
-end!
+ft1.1: 2019-04-02 17:23:46,831	-	INFO	-	chrome成功启动
+2019-04-02 17:23:53,909	-	INFO	-	('id', 'account')输入17621032204成功
+2019-04-02 17:23:53,977	-	INFO	-	('id', 'verification')输入EJIE成功
+2019-04-02 17:23:54,039	-	INFO	-	('id', 'txtPhoneCertify')输入EJIE成功
+2019-04-02 17:23:54,105	-	INFO	-	('xpath', '//*[text()="登录"]')单击成功
+2019-04-02 17:23:54,106	-	INFO	-	登录成功，开始测试
+2019-04-02 17:23:55,229	-	INFO	-	('id', 'tTopMenucustomer')单击成功
+2019-04-02 17:23:55,310	-	INFO	-	('xpath', '//*[@id="tSideMenuloanList"]/span')单击成功
+2019-04-02 17:23:56,667	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[1]/form/div[1]/div/div/input')输入2019040217234成功
+2019-04-02 17:23:56,785	-	INFO	-	('xpath', '//*[text()="筛选"]')单击成功
+2019-04-02 17:23:57,861	-	INFO	-	('xpath', '//*[@class="ivu-icon ivu-icon-edit"]')单击成功
+2019-04-02 17:23:58,961	-	INFO	-	('xpath', '//*[@id="app"]/div/div/div[2]/div[2]/div[2]/div/div[3]/div/div[2]/table/tbody/tr/td[12]/div/div/div[2]/ul/li[3]/a')单击成功
+2019-04-02 17:24:00,155	-	INFO	-	('xpath', '//*[@placeholder="清贷时间"]')单击成功
+2019-04-02 17:24:00,249	-	INFO	-	('xpath', '//*[@placeholder="清贷时间"]')单击成功
+2019-04-02 17:24:00,348	-	INFO	-	('xpath', '//*[@name="tBtnLoanListClearingConfirm"]')单击成功
+2019-04-02 17:24:04,362	-	INFO	-	向下滚动5距离的浏览器滚动条
+2019-04-02 17:24:04,516	-	INFO	-	('name', 'tBtnLoanListTrialModalConfirm')单击成功
+2019-04-02 17:24:05,663	-	INFO	-	('id', 'tTopMenurepaymentRemoveLoan')单击成功
+2019-04-02 17:24:05,748	-	INFO	-	('id', 'tSideMenuremoveLoan')单击成功
+2019-04-02 17:24:05,844	-	INFO	-	('id', 'tSideMenuremoveLoanremoveLoan-list')单击成功
+2019-04-02 17:24:09,912	-	WARNING	-	3秒内没有等待到('id', 'tInputFilter')元素出现
+Traceback (most recent call last):
+  File "D:/atest/pythonzdh/UIAutoTest\uitls\browser.py", line 191, in find_element
+    return self.driver.find_element(*locator)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"tInputFilter"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\atest\pythonzdh\UIAutoTest\test_case\test_clearing.py", line 42, in test001
+    self.browser.input((By.ID,'tInputFilter'),'{0}'.format(self.po))
+  File "D:/atest/pythonzdh/UIAutoTest\uitls\browser.py", line 206, in input
+    if self.find_element(located).is_displayed():
+  File "D:/atest/pythonzdh/UIAutoTest\uitls\browser.py", line 193, in find_element
+    log.error('无法获取元素' + locator)
+TypeError: can only concatenate str (not "tuple") to str
 
 
         </pre>
@@ -445,16 +481,16 @@ end!
 <tr id='total_row'>
     <th>统计</th>
     <th>1</th>
+    <th>0</th>
+    <th>0</th>
     <th>1</th>
-    <th>0</th>
-    <th>0</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
 </tr>
 </table>
 <script>
     showCase(1);
-    drawCircle(1, 0, 0);
+    drawCircle(0, 0, 1);
 </script>
 
 <div id='ending'>&nbsp;</div>

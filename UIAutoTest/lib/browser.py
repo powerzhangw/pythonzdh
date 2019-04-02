@@ -199,6 +199,7 @@ class browser(object):
         browser.input(located,'自动化测试培训')
         """
         if self.find_element(located).is_displayed():
+            self.find_element(located).clear()
             self.find_element(located).send_keys(str(value))
             log.info(str(located) + '输入' + str(value) + '成功')
         else:

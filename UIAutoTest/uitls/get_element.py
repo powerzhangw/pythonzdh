@@ -3,16 +3,9 @@
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.common.by import By
 # from selenium.webdriver.support import expected_conditions as EC
-# import config
 # import time
-# import log
 # import os
 # import sys
-# reload(sys)
-# sys.setdefaultencoding('utf8')
-#
-#
-# logs = log.log_message()
 # # 定位
 # def element(driver,method, location):
 #     logs.info_log(u'获取定位'  + method + ':' + location)

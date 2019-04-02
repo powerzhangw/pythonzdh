@@ -30,7 +30,8 @@ def add_3():
 
 add_1()
 add_2()
-add_3()
+cc = add_3()
+print(cc)
 
 # 写函数的好处：
 # 1：代码可以重用

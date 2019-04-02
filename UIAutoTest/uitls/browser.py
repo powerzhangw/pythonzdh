@@ -5,6 +5,7 @@ from selenium.common.exceptions import *
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 import os
 from time import sleep as wait
 import configinfo
@@ -104,6 +105,10 @@ class browser(object):
         """
         self.driver.quit()
 
+    def sava_images (self,file_path):
+        """截图"""
+        self.driver.save_screenshot(file_path)
+
     def max_window(self):
         """
         最大化浏览器
@@ -196,7 +201,7 @@ class browser(object):
         :return:
         :Usage:
         located=(By.id,'id_name')
-        browser.input(located,'自动化测试培训')
+        browser.input(located,'自动化测试')
         """
         if self.find_element(located).is_displayed():
             self.find_element(located).send_keys(str(value))
@@ -216,6 +221,14 @@ class browser(object):
             log.info(str(located) + '单击成功')
         else:
             log.error('元素不可见，无法单击' + str(located))
+
+    def kenter (self,located):
+        if self.find_element(located).is_displayed():
+            self.find_element(located).send_keys(Keys.ENTER)
+            log.info(str(located) + '单击成功')
+        else:
+            log.error('元素不可见，无法单击' + str(located))
+
 
     def right_click(self, located):
         """
@@ -347,6 +360,7 @@ class browser(object):
         js_value = self.driver.execute_script(js)
         log.info('执行' + js)
         return js_value
+
 
     def scroll_top(self, high):
         """
