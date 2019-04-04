@@ -4,46 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/test_case/test_renling.py" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6840eba9-7ed6-4d6c-aeb7-4cca5897de7c" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/bbb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/io_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/sw.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_case/test_renling.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uitls/send_email.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_02_41result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_18_14result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_22_31result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_23_43result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_27_24result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_38_40result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_43_18result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_43_29result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_43_42result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_44_40result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_47_18result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_48_37result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_55_16result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_59_45result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/log/2019040213.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/log/2019040214.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/log/2019040215.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/log/2019040216.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/log/2019040217.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reports/test_01_index.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/test001.png" afterPath="$PROJECT_DIR$/reports/test001.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/browser.py" afterPath="$PROJECT_DIR$/lib/browser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/re_re/g_codes.py" afterPath="$PROJECT_DIR$/re_re/g_codes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test_clearing.py" afterPath="$PROJECT_DIR$/test_case/test_clearing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uitls/browser.py" afterPath="$PROJECT_DIR$/uitls/browser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uitls/config.py" afterPath="$PROJECT_DIR$/uitls/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uitls/post_result.py" afterPath="$PROJECT_DIR$/uitls/post_result.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uitls/startend.py" afterPath="$PROJECT_DIR$/uitls/startend.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UI_aoto/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../UI_aoto/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lemon_free_python/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../lemon_free_python/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reports/2019-04-02-17_46_11result.html" afterPath="$PROJECT_DIR$/lib/txt.txt" />
-    </list>
+    <list default="true" id="6840eba9-7ed6-4d6c-aeb7-4cca5897de7c" name="默认" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +71,7 @@
       <file leaf-file-name="send_email.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uitls/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="297">
               <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
@@ -133,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/demo/bbb.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -152,8 +113,8 @@
       <file leaf-file-name="post_result.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uitls/post_result.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+            <state relative-caret-position="2349">
+              <caret line="93" column="22" lean-forward="false" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -161,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019040415.log" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019040415.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reports/log/2019040415.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="16" column="11502" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="16" selection-end-column="12595" />
+            <state relative-caret-position="-7748">
+              <caret line="16" column="6108" lean-forward="false" selection-start-line="16" selection-start-column="6108" selection-end-line="16" selection-end-column="6108" />
               <folding />
             </state>
           </provider>
@@ -174,7 +135,7 @@
       <file leaf-file-name="g_codes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_re/g_codes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
+            <state relative-caret-position="1161">
               <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
@@ -203,12 +164,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="128">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -325,6 +288,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,76 +302,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uitls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UIAutoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UI_aoto_postlend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ApiTests/interface_test" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
@@ -774,19 +677,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16770834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29386893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16770834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="查找" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -795,6 +698,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="查找" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -864,19 +768,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reports/2019-04-03-17_04_42result.html" />
-    <entry file="file://$PROJECT_DIR$/reports/2019-04-03-17_06_16result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/2019-04-03-17_06_16result.html" />
     <entry file="file://D:/python37/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="911">
           <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="227" column="22" lean-forward="false" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="210" column="22" lean-forward="false" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="216" column="22" lean-forward="false" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="22" />
-          <folding>
-            <element signature="e#18#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="e#14#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="68" />
-          <folding>
-            <element signature="e#89#104#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,9 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,9 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#14#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,21 +884,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/bbb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uitls/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="297">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
@@ -1066,7 +939,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/re_re/g_codes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
+        <state relative-caret-position="1161">
           <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
@@ -1074,18 +947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uitls/post_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+        <state relative-caret-position="2349">
+          <caret line="93" column="22" lean-forward="false" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
@@ -1094,9 +959,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reports/log/2019040415.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="16" column="11502" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="16" selection-end-column="12595" />
+        <state relative-caret-position="-7748">
+          <caret line="16" column="6108" lean-forward="false" selection-start-line="16" selection-start-column="6108" selection-end-line="16" selection-end-column="6108" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
