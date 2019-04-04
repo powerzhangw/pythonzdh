@@ -1,14 +1,10 @@
 #coding=utf-8
-# import sys
-# reload(sys)
-# sys.setdefaultencoding('utf8')
-import importlib,sys
-importlib.reload(sys)
 
 #测试URL
-def test_url():
-    url = 'http://postlend.demo.ejie365.cn'
-    return url
+url = 'http://postlend.demo.ejie365.cn'
+# def test_url():
+#     url = 'http://postlend.demo.ejie365.cn'
+#     return url
 #邮箱收件人
 def post_receiver():
     post_receive = ['95557155@qq.com']
@@ -18,6 +14,7 @@ def case_path():
     # case_paths = r'D:\atest\pythonzdh\UI_aoto\test_case'
     case_paths = r'D:\atest\pythonzdh\UI_aoto\others'
     # case_paths = r'.\test_case\deduction_claim_managements\deduction_test'
+    # case_path = os.path.join(os.getcwd(), "test_case")
     return case_paths
 #日志路径
 def log_path():

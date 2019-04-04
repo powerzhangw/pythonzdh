@@ -208,6 +208,7 @@ class browser(object):
     def click(self, located):
         """
         单击
+        :rtype: object
         :param located: 元素（By.ID,'id'）
         :return:
         """

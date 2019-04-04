@@ -10,6 +10,7 @@ import os
 from time import sleep as wait
 import configinfo
 import lib.logUntil
+import time
 
 log = lib.logUntil.Log()
 
@@ -187,7 +188,7 @@ class browser(object):
         browser.find_element(locator)
         """
         try:
-            self.wait_element(locator, 3)
+            self.wait_element(locator, 5)
             return self.driver.find_element(*locator)
         except NoSuchElementException:
             log.error('无法获取元素' + locator)
@@ -203,6 +204,7 @@ class browser(object):
         located=(By.id,'id_name')
         browser.input(located,'自动化测试')
         """
+        time.sleep(1)
         if self.find_element(located).is_displayed():
             self.find_element(located).send_keys(str(value))
             log.info(str(located) + '输入' + str(value) + '成功')
@@ -212,6 +214,7 @@ class browser(object):
     def click(self, located):
         """
         单击
+        :rtype: object
         :param located: 元素（By.ID,'id'）
         :return:
         """
